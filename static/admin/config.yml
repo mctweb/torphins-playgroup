@@ -10,3 +10,38 @@ slug:
   encoding: 'ascii'
   clean_accents: true
   sanitize_replacement: '-'
+
+
+collections:
+  - name: 'pages' # Used in routes, e.g., /admin/collections/blog
+    label: 'Pages' # Used in the UI
+    label_singular: 'Page'
+    folder: 'content/pages' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Subtitle, name: subtitle, widget: string }
+      - { label: Meta Description, name: brief, widget: string, required: true, hint: "This is displayed on google search results" }
+      - { label: Header, name: header, widget: image, required: true }
+      - { label: Main Text, name: body, widget: 'markdown', buttons: ['bold', 'italic', 'link'], }
+      - { label: Stand Out Image, name: standout, widget: image, required: false }
+     
+  - name: 'blogs' # Used in routes, e.g., /admin/collections/blog
+    label: 'Blog' # Used in the UI
+    folder: 'content/blogs' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: Title, name: title, widget: string, required: true }
+      - { label: Brief Description, name: description, widget: text, required: true, hint: "This is displayed on google search results"  }
+      - { label: Publish date, name: date, widget: 'datetime' }
+      - { label: Article, name: body, widget: 'markdown', buttons: ['bold', 'italic', 'link'], }
+      - { label: 'Header Image', name: 'header', widget: 'image' }
+     # - { label: 'Category', name: 'category', widget: 'select', options: ["weddings", "newborns", "families", "about"] }
+      - widget: 'list'
+        name: 'photographs'
+        label: 'Photographs'
+        fields:
+          - { label: Photo, name: photo, widget: image }
+
