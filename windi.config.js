@@ -19,7 +19,8 @@ export default defineConfig({
       },
       colors: {
         blue: '#005CAA',
-        red: '#D41217'
+        red: '#D41217',
+        beige: '#F8F6F3'
       },
       spacing: {
         128: '32rem',

@@ -1,0 +1,40 @@
+@import './fonts.css';
+
+h1,h2,h3{
+  @apply font-black;
+}
+h1{
+  @apply text-3xl lg:text-4xl;
+}
+h2{
+  @apply text-2xl lg:text-3xl;
+}
+h3{
+  @apply text-xl lg:text-2xl;
+}
+body {
+  font-family: 'Gotham', Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.page-enter-active,
+.page-leave-active,
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active,
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease-in-out;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
