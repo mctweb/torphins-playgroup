@@ -1,6 +1,7 @@
 <template>
-  <section>
+  <section class="">
     LeftBox
+    
     <Markdown :body="title" type="heading" />
     <Markdown :body="body" />
   </section>
