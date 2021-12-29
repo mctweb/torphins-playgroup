@@ -24,14 +24,34 @@ export default {
     stripes: {
       type: Boolean,
       default: false
+    },
+    top: {
+      type: Boolean,
+      default: false
+    },
+    left: {
+      type: Boolean,
+      default: false
+    },
+    right: {
+      type: Boolean,
+      default: false
     }
   },
   computed: {
     box () {
       const height = getRndInteger(this.min, this.max)
-      const plusOrMinus = ['+', '-'][Math.random() * 2 | 0]
+      let plusOrMinus = ['+', '-'][Math.random() * 2 | 0]
+      if (this.top) { plusOrMinus = '-' }
+
       const options = ['left', 'right']
-      const chosenOption = getRndInteger(0, 1)
+      let chosenOption = getRndInteger(0, 1)
+      if (this.left) {
+        chosenOption = 1
+      }
+      if (this.right) {
+        chosenOption = 0
+      }
       const colors = {
         red: '#D41217',
         blue: '#005CAA'
@@ -71,7 +91,7 @@ export default {
   transform-origin: center center;
   /* background-image: url(/img/noise.png);
     background-blend-mode: overlay; */
-  opacity: 0.9;
+  opacity: 0.85;
   width: 100%;
   border-radius: 50%;
   /* transform: translateX(20%) translateY(-50%) scale(0); */

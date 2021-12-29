@@ -1,15 +1,22 @@
 <template>
-  <section class="max-w-7xl mx-auto py-32 relative flex flex-wrap items-center">
-    <div class="w-1/2 relative flex" :class="[right ? 'pl-12 order-2' : 'pr-12']">
-      <div class="w-full bg-gray-300 h-full min-h-72 z-10 relative shadow-xl" :class="[ right ? 'rounded-tl' : 'rounded-tr']" />
-      <div class="z-1 absolute inset-0">
-        <CircleDec color="blue" />
-        <CircleDec stripes />
+  <section class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
+    <div class="flex w-full relative lg:w-1/2" :class="[right ? 'pl-12 lg:order-2' : 'pr-12']">
+      <div class="h-full bg-gray-300 shadow-xl w-full min-h-72 z-10 relative overflow-hidden" :class="[ right ? 'rounded-tl' : 'rounded-tr']">
+        <img :src="image" :alt="title" class="h-full object-cover w-full">
+      </div>
+      <div class="inset-0 z-1 absolute">
+        <CircleDec color="blue" :right="right" :left="!right" />
+        <CircleDec stripes :right="right" :left="!right" />
       </div>
     </div>
-    <div class="relative z-10 flex-1" :class="[right ? 'pr-12 order-1' : 'pl-12']">
+    <div class="w-full px-12 pt-12 z-10 relative lg:flex-1 lg:pt-0" :class="[right ? 'lg:order-1' : '']">
       <Markdown :body="title" type="heading" />
       <Markdown :body="body" />
+      <div v-for="(button,index) in buttons" :key="index" class="mt-6">
+        <ButtonInternal :page="button.page" size="large">
+          {{ button.text }}
+        </ButtonInternal>
+      </div>
     </div>
   </section>
 </template>

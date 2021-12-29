@@ -23,6 +23,7 @@ export default {
         return error({ statusCode: 404, message: 'Page not found' })
       })
     const page = thepage[0]
+    if (!page) { return error({ statusCode: 404, message: 'Page not found' }) }
 
     return {
       page: replaceAll(page, 'static/', '')

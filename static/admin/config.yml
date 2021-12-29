@@ -5,7 +5,7 @@ backend:
 local_backend: true
 publish_mode: editorial_workflow
 #logo_url: https://mctweb.co.uk/_nuxt/img/95f0951.svg
-media_folder: 'assets/uploads' # Media files will be stored in the repo under static/images/uploads
+media_folder: 'static/uploads' # Media files will be stored in the repo under static/images/uploads
 slug:
   encoding: 'ascii'
   clean_accents: true
