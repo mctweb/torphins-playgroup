@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col max-w-5xl justify-center">
+  <div class="flex flex-col">
     <div v-for="(section,i) in page.section" :key="i">
       <component :is="'main-' + section.component" v-bind="section" />
     </div>

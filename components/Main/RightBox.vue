@@ -1,9 +1,5 @@
 <template>
-  <section>
-    RightBox
-    <Markdown :body="title" type="heading" />
-    <Markdown :body="body" />
-  </section>
+  <MainBox v-bind="$props" right />
 </template>
 
 <script>
@@ -14,7 +10,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>
