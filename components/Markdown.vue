@@ -29,6 +29,9 @@ export default {
 .paragraph[type="heading"] strong{
     @apply text-red;
 }
+.paragraph[type="largeheading"] p{
+    @apply font-black text-blue mb-0 pb-0 text-3xl lg:text-5xl xl:text-6xl;
+}
 .paragraph[type="hero"] p{
     @apply font-black text-blue text-2xl lg:text-3xl xl:text-4xl;
 }

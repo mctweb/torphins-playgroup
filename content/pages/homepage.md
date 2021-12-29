@@ -27,5 +27,12 @@ section:
     buttons:
       - text: Learning Through Play
         page: Homepage
+  - title: Frequently Asked Questions
+    buttons:
+      - text: Learning Through Play
+        page: Homepage
+      - text: Learn More
+        page: About
+    component: Standout
 ---
 Testing testing **bold** and more
