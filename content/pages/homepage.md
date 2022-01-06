@@ -34,5 +34,16 @@ section:
       - text: Learn More
         page: About
     component: Standout
+  - body: Fun, warm, and inclusive, our staff team provides creative and engaging
+      activities for the children to take part in, as well as every opportunity
+      to find and follow their own interests and develop their sense of self. We
+      accommodate difference, we work with families from across our local
+      communities, and we respect the rights of every child.
+    title: Prepare Your Children For **The Next Steps**
+    component: RightBox
+    image: /static/uploads/wellies.png
+    buttons:
+      - text: Visit Us
+        page: Homepage
 ---
 Testing testing **bold** and more
