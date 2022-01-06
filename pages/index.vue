@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-col overflow-x-hidden">
-    <div v-for="(section,i) in page.section" :key="i">
-      <component :is="'main-' + section.component" v-bind="section" />
+    <div v-for="(section,i) in page.section" :key="i" class="relative">
+      <component :is="'main-' + section.component" v-bind="section" :icon="icons[i]" />
     </div>
   </div>
 </template>
 
 <script>
-import { replaceAll } from '~/utils/helpers'
+import { replaceAll, icons } from '~/utils/helpers'
 export default {
   async asyncData ({ $content, app, params, route, error }) {
     let slug = params.slug || null
@@ -26,6 +26,18 @@ export default {
 
     return {
       page: replaceAll(page, 'static/', '')
+    }
+  },
+
+  computed: {
+    icons () {
+      if (!this.page || !this.page.section.length) { return }
+      let allIcons = icons
+
+      while (this.page.section.length > allIcons.length) {
+        allIcons = allIcons.concat(allIcons)
+      }
+      return allIcons
     }
   }
 }

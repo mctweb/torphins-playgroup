@@ -25,11 +25,8 @@
 import props from '~/utils/props'
 export default {
   props: {
-    ...props,
-    right: {
-      type: Boolean,
-      default: false
-    }
+    ...props
+
   }
 }
 </script>

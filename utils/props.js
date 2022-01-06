@@ -14,6 +14,14 @@ const props = {
   buttons: {
     type: Array,
     default: () => []
+  },
+  icon: {
+    type: String,
+    default: ''
+  },
+  right: {
+    type: Boolean,
+    default: false
   }
 }
 
