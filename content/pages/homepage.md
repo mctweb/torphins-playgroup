@@ -1,7 +1,8 @@
 ---
 title: Homepage
 brief: A fun, warm, inclusive preschool playgroup setting in Aberdeenshire!
-header: https://mctweb.co.uk/_nuxt/img/f2926c4.webp
+header: null
+metaimage: /static/uploads/boyseesaw.png
 section:
   - component: Header
     body: |-
@@ -40,10 +41,9 @@ section:
       accommodate difference, we work with families from across our local
       communities, and we respect the rights of every child.
     title: Prepare Your Children For **The Next Steps**
-    component: RightBox
+    component: LeftBox
     image: /static/uploads/wellies.png
     buttons:
       - text: Visit Us
         page: Homepage
 ---
-Testing testing **bold** and more

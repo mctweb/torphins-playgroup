@@ -1,13 +1,14 @@
 <template>
   <div class="flex flex-col overflow-x-hidden">
-    <div v-for="(section,i) in page.section" :key="i">
-      <component :is="'main-' + section.component" v-bind="section" />
+    <div v-for="(section,i) in page.section" :key="i" class="relative">
+      <component :is="'main-' + section.component" v-bind="section" :icon="icons[i]" />
     </div>
   </div>
 </template>
 
 <script>
-import { replaceAll } from '~/utils/helpers'
+import { replaceAll, icons } from '~/utils/helpers'
+import meta from '~/utils/meta'
 export default {
   async asyncData ({ $content, app, params, route, error }) {
     let slug = params.slug || null
@@ -23,10 +24,31 @@ export default {
         return error({ statusCode: 404, message: 'Page not found' })
       })
     const page = thepage[0]
-    if (!page) { return error({ statusCode: 404, message: 'Page not found' }) }
 
     return {
       page: replaceAll(page, 'static/', '')
+    }
+  },
+  head () {
+    return {
+      ...meta({
+        title: this.page.title,
+        description: this.page.brief,
+        url: this.$route.path,
+        image: this.page.metaimage
+      })
+    }
+  },
+
+  computed: {
+    icons () {
+      if (!this.page || !this.page.section.length) { return }
+      let allIcons = icons
+
+      while (this.page.section.length > allIcons.length) {
+        allIcons = allIcons.concat(allIcons)
+      }
+      return allIcons
     }
   }
 }

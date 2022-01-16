@@ -38,6 +38,23 @@ export default {
 .paragraph[type="hero"] strong{
     @apply text-red;
 }
+
+.paragraph[type="footer"] h3{
+    @apply font-bold text-red text-right mb-0 pb-0;
+}
+.paragraph[type="footer"] p{
+    @apply text-blue text-right;
+}
+.paragraph[type="footer"] a{
+    @apply font-black;
+}
+.paragraph[type="footer"] a:hover{
+    @apply text-red duration-150;
+}
+.paragraph[type="footer"] strong{
+    @apply text-red;
+}
+
 .paragraph h1{
   @apply text-5xl;
 }

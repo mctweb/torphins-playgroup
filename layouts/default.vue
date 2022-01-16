@@ -1,6 +1,9 @@
 <template>
-  <main class="bg-beige min-h-screen text-blue">
+  <main class="bg-beige min-h-screen text-blue relative">
+    <NavigationMain />
+
     <nuxt />
+    <NavigationFooter />
   </main>
 </template>
 

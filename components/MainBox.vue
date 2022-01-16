@@ -39,12 +39,12 @@ export default {
 
 <style scoped>
 .bl{
-  bottom: -1em;
-  left: -1em;
+  bottom: -3em;
+  left: -3em;
 }
 .br{
-  bottom: -1em;
-  right: -1em;
+  bottom: -3em;
+  right: -3em;
 }
 .rounded-tr{
   border-top-right-radius: 5rem;

@@ -5,7 +5,7 @@
         <Markdown :body="title" type="largeheading" />
         <Markdown :body="body" />
       </div>
-      <div class="flex flex-col lg:w-1/2">
+      <div class="flex flex-col w-full lg:w-1/2">
         <div v-for="(button,index) in buttons" :key="index" class="mt-6">
           <ButtonInternal :page="button.page" size="large">
             {{ button.text }}

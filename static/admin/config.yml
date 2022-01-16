@@ -63,3 +63,39 @@ collections:
         fields:
           - { label: Photo, name: photo, widget: image }
 
+  - name: 'settings' 
+    label: 'Settings' 
+    files: 
+      - label: 'Navigation'
+        name: 'navigation'
+        file: 'content/settings/navigation.md'
+        fields:
+          - widget: 'list'
+            name: 'links'
+            label: 'Links'
+            fields:
+            - { label: Text, name: text, widget: string }
+            - label: "Page"
+              name: "to"
+              widget: "relation"
+              collection: "pages"
+              search_fields: ["title"]
+              value_field: "title"
+              display_fields: ["title", "slug"]
+      - label: 'Footer'
+        name: 'footer'
+        file: 'content/settings/footer.md'
+        fields:
+          - { label: Footer Text, name: footertext, widget: 'markdown', buttons: ['bold', 'italic', 'link'], }
+          - widget: 'list'
+            name: 'links'
+            label: 'Links'
+            fields:
+            - { label: Text, name: text, widget: string }
+            - label: "Page"
+              name: "to"
+              widget: "relation"
+              collection: "pages"
+              search_fields: ["title"]
+              value_field: "title"
+              display_fields: ["title", "slug"]

@@ -8,6 +8,8 @@
 
 <script>
 import { replaceAll, icons } from '~/utils/helpers'
+import meta from '~/utils/meta'
+
 export default {
   async asyncData ({ $content, app, params, route, error }) {
     let slug = params.slug || null
@@ -26,6 +28,16 @@ export default {
 
     return {
       page: replaceAll(page, 'static/', '')
+    }
+  },
+  head () {
+    return {
+      ...meta({
+        title: this.page.title,
+        description: this.page.brief,
+        url: this.$route.path,
+        image: this.page.metaimage
+      })
     }
   },
 
