@@ -18,7 +18,15 @@ footertext: "### Torphins Playgroup\r
 links:
   - text: Homepage
     to: Homepage
+    page: Homepage
   - text: About
     to: About
+    page: About
+  - page: Learning Through Play
+    text: Learning Through Play
+  - page: Resources
+    text: Resources
+  - page: Support Us
+    text: Support Us
 ---
 Torphins Playgroup

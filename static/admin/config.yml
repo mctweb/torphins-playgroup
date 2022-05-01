@@ -4,14 +4,16 @@ backend:
   use_large_media_transforms_in_media_library: false
 local_backend: true
 publish_mode: editorial_workflow
+display_url: http://www.torphinsplaygroup.co.uk
+# show_preview_links: false
 #logo_url: https://mctweb.co.uk/_nuxt/img/95f0951.svg
 media_folder: 'static/uploads' # Media files will be stored in the repo under static/images/uploads
 slug:
   encoding: 'ascii'
   clean_accents: true
   sanitize_replacement: '-'
-
-
+editor: 
+  preview: false
 collections:
   - name: 'pages' # Used in routes, e.g., /admin/collections/blog
     label: 'Pages' # Used in the UI
@@ -26,42 +28,165 @@ collections:
       - widget: 'list'
         name: 'section'
         label: 'Section'
-        fields:
-          - { label: Title, name: title, widget: markdown, required: false, buttons: ['bold'], minimal: true}
-          - { label: Body, name: body, widget: markdown, required: false,  buttons: ['bold', 'italic', 'link'], editor_components: ['image']}
-          - { label: 'Component', name: 'component', widget: 'select', options: ["Header", "LeftBox", "RightBox", "Standout"] }
-          - { label: Image, name: image, widget: image, required: false }
-          - widget: 'list'
-            name: 'buttons'
-            label: 'Buttons'
+        types: 
+          - label: 'General Section'
+            name: 'general-section'
+            widget: object
+            summary: '{{fields.title}}'
             fields:
-            - { label: Text, name: text, widget: string }
-            - label: "Page"
-              name: "page"
-              widget: "relation"
-              collection: "pages"
-              search_fields: ["title"]
-              value_field: "title"
-              display_fields: ["title", "slug"]
+              - { label: Title, name: title, widget: markdown, required: false, buttons: ['bold'], minimal: true}
+              - { label: Body, name: body, widget: markdown, required: false,  buttons: ['bold', 'italic', 'link'], editor_components: ['image']}
+              - { label: Image, name: image, widget: image, required: false }
+              - { name: flip, label: "Flip", widget: boolean, default: true, required: false }
+              - widget: 'list'
+                name: 'buttons'
+                label: 'Buttons'
+                fields:
+                - { label: Text, name: text, widget: string, }
+                - label: "Internal Page"
+                  name: "page"
+                  widget: "relation"
+                  collection: "pages"
+                  search_fields: ["title"]
+                  value_field: "title"
+                  required: false
+                  display_fields: ["title", "slug"]
+                - { label: (Or External Url), name: url, required: false, widget: string, }
+                - { label: Specific Title, name: uid, widget: string, required: false }
 
-     
-  - name: 'blogs' # Used in routes, e.g., /admin/collections/blog
-    label: 'Blog' # Used in the UI
-    folder: 'content/blogs' # The path to the folder where the documents are stored
+          - label: 'Header'
+            name: 'header'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - { label: Title, name: title, widget: markdown, required: false, buttons: ['bold'], minimal: true}
+              - { label: Body, name: body, widget: markdown, required: false,  buttons: ['bold', 'italic', 'link'], editor_components: ['image']}
+              - { label: Image, name: image, widget: image, required: false }
+              - { name: flip, label: "Flip", widget: "boolean", default: true, required: false }
+              - widget: 'list'
+                name: 'buttons'
+                label: 'Buttons'
+                fields:
+                - { label: Text, name: text, widget: string }
+                - label: "Internal Page"
+                  name: "page"
+                  widget: "relation"
+                  collection: "pages"
+                  search_fields: ["title"]
+                  required: false
+                  value_field: "title"
+                  display_fields: ["title", "slug"]
+                - { label: (Or External Url), name: url, widget: string,required: false, }
+                - { label: Specific Title, name: uid, widget: string }
+                
+          - label: 'Standout'
+            name: 'standout'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - { label: Title, name: title, widget: markdown, required: false, buttons: ['bold'], minimal: true}
+              - { label: Body, name: body, widget: markdown, required: false,  buttons: ['bold', 'italic', 'link'], editor_components: ['image']}
+              - { name: flip, label: "Flip", widget: "boolean", default: true, required: false }
+              - widget: 'list'
+                name: 'buttons'
+                label: 'Buttons'
+                fields:
+                - { label: Text, name: text, widget: string }
+                - label: "Internal Page"
+                  name: "page"
+                  widget: "relation"
+                  collection: "pages"
+                  search_fields: ["title"]
+                  value_field: "title"
+                  required: false
+                  display_fields: ["title", "slug"]
+                - { label: (Or External Url), name: url, widget: string, required: false,}
+                - { label: Specific Title, name: uid, widget: string, required: false }
+
+          - label: 'Meet The Team'
+            name: 'meet-the-team'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - widget: 'list'
+                name: 'team'
+                label: 'Team Member'
+                fields:
+                - { label: Name, name: name, widget: string, required: false }
+                - { label: Image, name: image, widget: image, required: false  }
+                - { label: Description, name: description, widget: markdown, required: false, buttons: ['bold', 'italic']}
+                - { label: Biography File, name: download, widget: file, required: false, choose_url: false  }
+
+          - label: 'Gallery'
+            name: 'gallery'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - widget: 'list'
+                name: 'images'
+                label: 'Images'
+                fields:
+                - { label: Name, name: name, widget: string, required: false }
+                - { label: Image, name: image, widget: image, required: false  }
+
+          - label: 'File Download'
+            name: 'file-download'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - { label: Title, name: title, widget: markdown, required: false, buttons: ['bold'], minimal: true}
+              - { label: Body, name: body, widget: markdown, required: false,  buttons: ['bold', 'italic', 'link'], editor_components: ['image']}
+              - { name: flip, label: "Flip", widget: "boolean", default: true, required: false }
+              - { name: file, label: "File", widget: "file", required: false }
+              - { label: "Button Text", name: button, widget: string, required: false}
+
+          - label: 'File Download List'
+            name: 'file-download-list'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - widget: 'list'
+                name: 'downloads'
+                label: 'Downloads'
+                fields:
+                  - { label: Title, name: title, widget: markdown, required: false, buttons: ['bold'], minimal: true}
+                  - { name: file, label: "File", widget: "file", required: false }
+                  - { name: url, label: "Web Address", widget: "string", required: false }
+
+          - label: 'List'
+            name: 'list-section'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - widget: 'list'
+                name: 'list'
+                label: 'List'
+                fields:
+                - { label: Title, name: title, widget: string, required: false }
+                - { label: Body, name: body, widget: markdown, required: false,  buttons: ['bold', 'italic', 'link'], editor_components: ['image']}
+
+  - name: 'news' # Used in routes, e.g., /admin/collections/blog
+    label: 'Articles' # Used in the UI
+    folder: 'content/news' # The path to the folder where the documents are stored
+    preview_path: '/news/{{slug}}'
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: Title, name: title, widget: string, required: true }
-      - { label: Brief Description, name: description, widget: text, required: true, hint: "This is displayed on google search results"  }
-      - { label: Publish date, name: date, widget: 'datetime' }
-      - { label: Article, name: body, widget: 'markdown', buttons: ['bold', 'italic', 'link'], }
-      - { label: 'Header Image', name: 'header', widget: 'image' }
-     # - { label: 'Category', name: 'category', widget: 'select', options: ["weddings", "newborns", "families", "about"] }
-      - widget: 'list'
-        name: 'photographs'
-        label: 'Photographs'
-        fields:
-          - { label: Photo, name: photo, widget: image }
+      - {
+          label: Small Description,
+          name: description,
+          widget: text,
+          required: true,
+          hint: 'This is displayed on google search results and on blog cards'
+        }
+      - {
+          label: Blog Post,
+          name: body,
+          widget: 'markdown',
+          buttons: ['bold', 'italic', 'link']
+        }
+
 
   - name: 'settings' 
     label: 'Settings' 
@@ -75,13 +200,14 @@ collections:
             label: 'Links'
             fields:
             - { label: Text, name: text, widget: string }
-            - label: "Page"
-              name: "to"
+            - label: "Internal Page"
+              name: "page"
               widget: "relation"
               collection: "pages"
               search_fields: ["title"]
               value_field: "title"
               display_fields: ["title", "slug"]
+
       - label: 'Footer'
         name: 'footer'
         file: 'content/settings/footer.md'
@@ -92,10 +218,13 @@ collections:
             label: 'Links'
             fields:
             - { label: Text, name: text, widget: string }
-            - label: "Page"
-              name: "to"
+            - label: "Internal Page"
+              required: false
+              name: "page"
               widget: "relation"
               collection: "pages"
               search_fields: ["title"]
               value_field: "title"
               display_fields: ["title", "slug"]
+            - { label: (Or External Url), name: url, widget: string,required: false, }
+            - { label: Specific Title, name: id, widget: string,required: false }

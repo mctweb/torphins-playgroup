@@ -6,7 +6,8 @@ export const replaceAll = function (object, original, replacement) {
 
 export const normalizeLinks = function (links, location) {
   return links.map((x) => {
-    const to = x[location].toLowerCase()
+    if (!x[location]) { return x }
+    const to = x[location].replace(/\s+/g, '-').toLowerCase()
     return {
       ...x,
       [location]: to === 'homepage' ? '/' : to

@@ -33,7 +33,7 @@ export default {
       type: Boolean,
       default: false
     },
-    right: {
+    flip: {
       type: Boolean,
       default: false
     }
@@ -46,10 +46,8 @@ export default {
 
       const options = ['left', 'right']
       let chosenOption = getRndInteger(0, 1)
-      if (this.left) {
-        chosenOption = 1
-      }
-      if (this.right) {
+      chosenOption = 1
+      if (this.flip) {
         chosenOption = 0
       }
       const colors = {

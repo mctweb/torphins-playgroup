@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col overflow-x-hidden">
     <div v-for="(section,i) in page.section" :key="i" class="relative">
-      <component :is="'main-' + section.component" v-bind="section" :icon="icons[i]" />
+      <component :is="'main-' + section.type" v-bind="section" :icon="icons[i]" />
     </div>
   </div>
 </template>

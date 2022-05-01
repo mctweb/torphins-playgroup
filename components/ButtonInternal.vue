@@ -1,8 +1,12 @@
 <template>
-  <NuxtLink :to="to" class="bg-blue rounded-lg flex flex-wrap font-black text-white py-4 px-6 duration-150 button justify-between items-center group hover:bg-red">
-    <slot>Click here</slot>
-    <IconPlus class="h-8 text-white ml-3 transform w-8 duration-500 icon group-hover:rotate-90" />
+  <NuxtLink v-if="page" :to="to" class="bg-blue rounded-lg flex flex-wrap font-black text-white leading-tighter py-4 px-6 duration-150 button justify-between items-center group md:flex-nowrap hover:bg-red">
+    <span class="mr-3 inline-block"><slot>Click here</slot></span>
+    <IconPlus class="ml-auto h-8 text-white transform w-8 duration-500 icon group-hover:rotate-90" />
   </NuxtLink>
+  <a v-else-if="url" :href="url" target="_blank" class="bg-blue rounded-lg flex flex-wrap font-black text-white leading-tighter py-4 px-6 duration-150 button justify-between items-center group md:flex-nowrap hover:bg-red">
+    <span class="mr-3 inline-block"><slot>Click here</slot></span>
+    <IconPlus class="ml-auto h-8 text-white transform w-8 duration-500 icon group-hover:rotate-90" />
+  </a>
 </template>
 
 <script>
@@ -11,6 +15,14 @@ export default {
     page: {
       type: String,
       default: ''
+    },
+    uid: {
+      type: String,
+      default: null
+    },
+    url: {
+      type: String,
+      default: null
     }
   },
   data () {
@@ -23,6 +35,7 @@ export default {
   },
   methods: {
     async getPage (title) {
+      if (!title) { return }
       const [page] = await this.$content('pages')
         .where({
           title
@@ -30,10 +43,14 @@ export default {
         .only(['slug', 'title'])
         .fetch((a) => { return a })
         .catch(() => {
-          return [{ slug: 'nono' }]
+          return [{ slug: '/' }]
         })
-
-      this.to = page.slug === 'homepage' ? '/' : page.slug
+      const path = page.slug === 'homepage' ? '/' : page.slug
+      const route = { path }
+      if (this.uid) {
+        route.hash = this.uid
+      }
+      this.to = route
     }
   }
 }

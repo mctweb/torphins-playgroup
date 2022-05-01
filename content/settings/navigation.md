@@ -1,7 +1,13 @@
 ---
-items:
+links:
   - text: Home
-    to: Homepage
-  - text: About
-    to: about
+    page: Homepage
+  - text: About Us
+    page: About
+  - text: Learning Through Play
+    page: Learning Through Play
+  - text: Support Us
+    page: Support Us
+  - text: FAQ's
+    page: FAQs
 ---

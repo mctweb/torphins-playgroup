@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col overflow-x-hidden">
     <div v-for="(section,i) in page.section" :key="i" class="relative">
-      <component :is="'main-' + section.component" v-bind="section" :icon="icons[i]" />
+      <component :is="'main-' + section.type" v-bind="section" :icon="icons[i]" />
     </div>
   </div>
 </template>
@@ -11,7 +11,7 @@ import { replaceAll, icons } from '~/utils/helpers'
 import meta from '~/utils/meta'
 export default {
   async asyncData ({ $content, app, params, route, error }) {
-    let slug = params.slug || null
+    let slug = params.slug.replace(/\s+/g, '-').toLowerCase() || null
     if (route.name === 'index') {
       slug = 'homepage'
     }

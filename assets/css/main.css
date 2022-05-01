@@ -17,6 +17,13 @@ body {
   scroll-behavior: smooth;
 }
 
+.rounded-tr{
+  border-top-right-radius: 5rem;
+}
+.rounded-tl{
+  border-top-left-radius: 5rem;
+}
+
 .page-enter-active,
 .page-leave-active,
 .layout-enter-active,
