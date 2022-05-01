@@ -9,7 +9,7 @@
         <button class="text-left" @click="toggle(i)">
           <Markdown :body="listItem.title" type="heading" />
         </button>
-        <section class="transform duration-500" :class="[listItem.isOpen ? 'h-auto translate-y-0' : 'h-0 overflow-hidden translate-y-full' ]">
+        <section class="transform duration-700" :class="[listItem.isOpen ? 'h-auto translate-y-0' : 'h-0 overflow-hidden translate-y-full' ]">
           <Markdown :body="listItem.body" class="pt-6" />
         </section>
       </div>
