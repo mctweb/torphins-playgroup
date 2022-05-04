@@ -8,6 +8,13 @@ export default {
     title: 'Torphins Playgroup',
     titleTemplate: '%s - Torphins Playgroup',
     ...siteMeta()
+    // script: [
+    //   {
+    //     type: 'module',
+    //     src:
+    //       'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0&appId=676264397070170&autoLogAppEvents=1'
+    //   }
+    // ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -16,6 +23,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/vue-agile'
+    // { src: '~/plugins/vue-facebook.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

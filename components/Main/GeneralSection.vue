@@ -1,8 +1,10 @@
 <template>
-  <MainBox v-bind="$props" :id="title" />
+  <MainBox v-bind="$props" :id="createId(title)" />
 </template>
 
 <script>
+import { createId } from '~/utils/helpers'
+
 export default {
   props: {
     title: {
@@ -29,6 +31,7 @@ export default {
       type: Boolean,
       default: false
     }
-  }
+  },
+  methods: { createId }
 }
 </script>

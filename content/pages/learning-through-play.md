@@ -38,6 +38,16 @@ section:
       to explore further there will always be someone from the friendly,
       experienced team there to help them get it out and get it going! "
     image: /static/uploads/torphins-playgroup-0207.png
+  - type: gallery
+    images:
+      - image: /static/uploads/torphins-playgroup-0166.png
+        name: Play Is Important
+      - image: /static/uploads/torphins-playgroup-0057.png
+        name: Preparing Snack
+      - image: /static/uploads/torphins-playgroup-0175.png
+        name: Playing With Blocks
+      - image: /static/uploads/torphins-playgroup-0132.png
+        name: Messy Play
   - type: general-section
     flip: false
     title: Messy Play
@@ -82,5 +92,5 @@ section:
     buttons:
       - text: Library Card
         url: https://www.livelifeaberdeenshire.org.uk/libraries/become-a-member/
-    image: /static/uploads/torphins-playgroup-0174.png
+    image: /static/uploads/torphins-playgroup-0176.png
 ---

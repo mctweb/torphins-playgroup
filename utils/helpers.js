@@ -25,3 +25,13 @@ export const icons = [
   'avatars/avatar-7.svg',
   'avatars/avatar-8.svg'
 ]
+
+export const slugify = function (text) {
+  return text.toString().toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/--+/g, '-').replace(/^-+/, '').replace(/-+$/, '')
+}
+
+export const createId = function (title) {
+  if (!title) { return }
+  const id = title.replaceAll('*', '')
+  return id
+}

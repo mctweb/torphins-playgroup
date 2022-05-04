@@ -1,5 +1,5 @@
 <template>
-  <section :id="title" class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
+  <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
     <div class=" flex flex-wrap w-full p-12 z-10 gap-12 justify-center items-center relative">
       <div v-for="({file, url, title},i) in downloads" :key="i" class="flex w-auto">
         <ButtonInternal v-if="file || url" :url="file ? file : url" target="_blank" size="large">
@@ -20,6 +20,7 @@
   </section>
 </template>
 <script>
+import { createId } from '~/utils/helpers'
 
 export default {
   props: {
@@ -28,7 +29,8 @@ export default {
       default: () => []
     }
 
-  }
+  },
+  methods: { createId }
 }
 </script>
 

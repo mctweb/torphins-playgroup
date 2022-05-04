@@ -16,7 +16,7 @@
       <Markdown :body="title" type="heading" />
       <Markdown :body="body" />
       <div v-for="(button,index) in buttons" :key="index" class="mt-6">
-        <ButtonInternal v-bind="button" size="large">
+        <ButtonInternal v-if="button.page" v-bind="button" size="large">
           {{ button.text }}
         </ButtonInternal>
       </div>
@@ -52,6 +52,7 @@ export default {
       default: false
     }
   }
+
 }
 </script>
 

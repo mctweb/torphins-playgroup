@@ -3,6 +3,10 @@ title: FAQs
 brief: See the answers to our most frequently asked questions.
 metaimage: /static/uploads/torphins-playgroup-0061.png
 section:
+  - type: header
+    flip: true
+    title: Frequently Asked Questions
+    image: /static/uploads/torphins-playgroup-0233.png
   - type: list-section
     list:
       - body: Yes. We accommodate the needs of all children at Playgroup. The team works
@@ -75,7 +79,7 @@ section:
       - body: Lunch is available – this is free for children with Eligible 2 places or a
           funded place under the Scottish Government 1140 Hours scheme. For more
           information about lunches or to read our Healthy Eating statement,
-          click here [link to section of About Us page]
+          [click here](/about#lunch-snacks)
         title: Is lunch provided?
       - body: "We accept children from the age of 2 years old, but every child is
           different. We offer half day and full day sessions and spend as much
@@ -97,11 +101,15 @@ section:
 
           Every member of the staff team holds membership of the
           Scottish PVG scheme. For more details of the scheme visit
-          https://www.mygov.scot/pvg-scheme \r\n"
+          [mygov.scot](https://www.mygov.scot/pvg-scheme)\r\n"
         title: Are all of the staff at Torphins Playgroup Preschool qualified?
-      - body: "At Torphins Playgroup Preschool, we follow the Curriculum for Excellence,
-          Pre-Birth to Three, and Getting It Right For Every Child (GIRFEC) to
-          support children as they grow and develop in their learning.\r
+      - body: "At Torphins Playgroup Preschool, we follow the [Curriculum for
+          Excellence](https://education.gov.scot/documents/All-experiencesoutco\
+          mes18.pdf), [Pre-Birth to
+          Three](https://www.stirling.gov.uk/media/1389/elc2_prebirthtothreeboo\
+          klet.pdf), and [Getting It Right For Every Child
+          (GIRFEC)](https://www.gov.scot/policies/girfec/) to support children
+          as they grow and develop in their learning.\r
 
           Our principal ethos is that children learn through play, and
           everything we do revolves around this concept. Learning should be fun!
@@ -160,9 +168,9 @@ section:
           collaboratively with other children or adults. When playing, children
           try out ideas and come to a better understanding of thoughts and
           concepts.  Play also helps children cope with reality through using
-          their imagination.  The Scottish Government’s national strategy for
-          play can be found at
-          https://www.gov.scot/resource/0042/00425722.pdf    \r\n"
+          their imagination. [Click here to view The Scottish Government’s
+          national strategy for
+          play](https://www.gov.scot/resource/0042/00425722.pdf)  \r\n"
         title: What is ‘Learning through Play’?
       - body: " At Playgroup we are out in the garden as much as possible, experimenting
           and exploring. During the summer months we ask parents and carers to
@@ -181,26 +189,15 @@ section:
           parents/carers will be notified via e mail and our Facebook
           page.  \r\n"
         title: "What happens if it snows or is very sunny? "
-      - body: "Children and parents are entitled to expect the highest quality in
+      - body: >-
+          Children and parents are entitled to expect the highest quality in
           childcare practice. Observing is an essential element in achieving
           quality childcare practice because it helps us to ‘know’ the children
           in our care. It leads to an understanding of the children’s
-          developmental needs and helps us to plan appropriately. \r
+          developmental needs and helps us to plan appropriately. 
 
-          We use Learning Journals to record your child’s journey at
-          playgroup. This is linked to different curricular areas where we can
-          track how your child is progressing. Parents will receive an email to
-          connect to their child’s Learning Journal once the child commences.
-          Parents and children can take ownership of these journals and can
-          freely add observations and stories from home learning and
-          experiences.\r
+          We use [Learning Journals](https://learningjournals.co.uk/) to record your child’s journey at playgroup. This is linked to different curricular areas where we can track how your child is progressing. Parents will receive an email to connect to their child’s Learning Journal once the child commences. Parents and children can take ownership of these journals and can freely add observations and stories from home learning and experiences.
 
-          Throughout your child’s time with us we will give you
-          regular verbal feedback on their progress holding parent
-          consultations. During your child’s time at Playgroup, we also take
-          several photographs to show the children’s progression as well as for
-          quality assurance. \r
-
-          \r\n"
+          Throughout your child’s time with us we will give you regular verbal feedback on their progress holding parent consultations. During your child’s time at Playgroup, we also take several photographs to show the children’s progression as well as for quality assurance.
         title: How will I know what my child has been doing in the sessions?
 ---

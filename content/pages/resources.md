@@ -11,6 +11,7 @@ section:
     body: Torphins Playgroup Preschool is committed to a safe and secure environment
       for children, parents and staff. To support this, we have a full suite of
       policies and resources available to download.
+    image: /static/uploads/torphins-playgroup-0206.png
   - type: standout
     flip: true
     body: "## Realising the Ambition: Being Me\ 

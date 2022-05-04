@@ -28,7 +28,7 @@ section:
           a vast range of play experiences. Her favourite activity with the
           children is music and movement.
         name: Sarah Fraser
-        image: /static/uploads/wellies.png
+        image: /static/uploads/torphins-playgroup-0010.png
         download: /static/uploads/meet-the-team-sarah.pdf
       - description: Carol is our Lead Early Years Practitioner. Carol has been heavily
           involved with the Playgroup since her own children attended, and
@@ -38,6 +38,7 @@ section:
           discussions about what interests them.
         name: Carol Evans
         download: /static/uploads/meet-the-team-carol.pdf
+        image: /static/uploads/torphins-playgroup-0021.png
       - name: Laura Crichton
         description: Laura is an Early Years Practitioner, having joined Torphins
           Playgroup in October 2019. She currently holds her SVQ Level 3 and
@@ -46,6 +47,7 @@ section:
           and role play. She also loves playing in the garden, encouraging the
           children to explore.
         download: /static/uploads/meet-the-team-laura.pdf
+        image: /static/uploads/torphins-playgroup-0018.png
       - description: Allana joined the team at Torphins Playgroup in 2020 and is one of
           our Assistant Practitioners. She is currently working towards her SVQ
           Level 3. Allana brings lots of energy to Playgroup and she loves
@@ -53,6 +55,7 @@ section:
           following their lead.
         name: "Allana Tracy "
         download: /static/uploads/meet-the-team-allana.pdf
+        image: /static/uploads/torphins-playgroup-0019.png
       - description: Sharon is one of our Assistant Practitioners, having joined
           Playgroup in 2020. She has an abundance of experience working with
           children in various settings and is currently working towards her SVQ
@@ -60,6 +63,7 @@ section:
           well as promoting conversation with the children.
         name: Sharon Witherspoon
         download: /static/uploads/meet-the-team-sharon.pdf
+        image: /static/uploads/torphins-playgroup-0011.png
       - description: Charlotte joined Playgroup in 2020 as an Early Years Support
           Worker, and is currently working towards her SVQ Level 3. Charlotte is
           extremely creative and brings lots of innovative ideas to Playgroup.
@@ -67,6 +71,7 @@ section:
           play.
         name: Charlotte Miller
         download: /static/uploads/meet-the-team-charlotte.pdf
+        image: /static/uploads/Charlotte.png
   - type: header
     flip: false
     title: Fees & Funding
@@ -91,7 +96,7 @@ section:
       - text: Our Eating Healthy Statement
         page: Resources
         id: Healthy Eating
-        uid: Healthy Eating
+        uid: Healthy Eating at Torphins Playgroup Preschool
     Flip: true
   - type: general-section
     flip: true
@@ -174,11 +179,9 @@ section:
       Further information is available at Apply for funded early learning
       - 3 and 4 year olds - Aberdeenshire Council\r\n"
     title: Funded places Under The **1140 Hours Scheme**
-    image: /static/uploads/torphins-playgroup-0260.png
-  - type: general-section
-    flip: true
-    title: News Section
-    body: To be added
+    image: /static/uploads/torphins-playgroup-0243.png
+  - type: news-articles
+    name: News
   - type: standout
     flip: false
     body: We aim to provide a safe and stimulating environment in which pre-school
@@ -190,7 +193,7 @@ section:
       life-long learning. We hold the children and their carers at the centre of
       what we do
     title: Our **Vision**
-  - type: standout
+  - type: general-section
     flip: true
     body: "1.\tTo provide an environment that enables children to learn though
       play;\r
@@ -224,6 +227,7 @@ section:
       10.\tTo encourage parents/carers and staff to work together for the
       benefit of the group.\r\n"
     title: Our Commitments
+    image: /static/uploads/torphins-playgroup-0143.png
   - type: gallery
     image:
       - image: /static/uploads/torphins-playgroup-0217.png

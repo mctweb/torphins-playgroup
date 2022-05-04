@@ -15,8 +15,9 @@ export default {
 <style>
 
 .paragraph a{
-  @apply border-transparent border-b-2 hover:border-white;
+  @apply border-transparent font-black border-b-3 duration-150 hover:border-red;
 }
+
 .paragraph strong{
     @apply  text-red;
 }

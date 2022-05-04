@@ -39,15 +39,13 @@ section:
     image: /static/uploads/torphins-playgroup-0113.png
     buttons:
       - text: Learning Through Play
-        page: Homepage
+        page: Learning Through Play
     Flip: true
   - type: standout
     title: Frequently Asked Questions
     buttons:
-      - text: Learning Through Play
-        page: Homepage
-      - text: Learn More
-        page: About
+      - text: Read FAQ's
+        page: FAQs
   - type: general-section
     body: "…In a home-from-home environment. \r
 
@@ -68,6 +66,8 @@ section:
     buttons:
       - text: Visit Us
         page: Homepage
+        uid: Contact
+        url: ""
   - type: general-section
     body: "There are so many ways to join in with Torphins Playgroup Preschool:
       Sessions run from 09.00 until 12.00 and from 12.00 until 15.00. Children
@@ -89,7 +89,7 @@ section:
       lunch is provided through the Aberdeenshire Schools catering service.\r\n"
     buttons:
       - text: View Menu
-        uid: "#Menu"
-        page: Homepage
+        uid: Menu
+        page: Resources
     image: /static/uploads/torphins-playgroup-0004.png
 ---

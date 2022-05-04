@@ -117,6 +117,14 @@ collections:
                 - { label: Description, name: description, widget: markdown, required: false, buttons: ['bold', 'italic']}
                 - { label: Biography File, name: download, widget: file, required: false, choose_url: false  }
 
+          - label: 'News Articles'
+            name: 'news-articles'
+            widget: object
+            summary: '{{fields.title}}'
+            fields:
+              - { label: Name, name: name, widget: string, required: false }
+              - { label: Description, name: description, widget: markdown, required: false, buttons: ['bold', 'italic']}
+
           - label: 'Gallery'
             name: 'gallery'
             widget: object

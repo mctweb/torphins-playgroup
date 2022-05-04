@@ -5,11 +5,17 @@
         <Markdown :body="title" type="largeheading" />
         <Markdown :body="body" class="pt-6" />
       </div> -->
-      <div v-for="(listItem,i) in copiedList" :key="i" class="flex flex-wrap w-full p-12 z-10 items-center relative ">
-        <button class="text-left" @click="toggle(i)">
-          <Markdown :body="listItem.title" type="heading" />
+      <div v-for="(listItem,i) in copiedList" :id="createId(listItem.title)" :key="i" class="flex flex-wrap w-full p-6 z-10 items-center relative ">
+        <button class="bg-white rounded-lg flex outline-none text-left w-full p-6 duration-150 items-start group hover:bg-gray-100 hover:text-red !focus:outline-none" :class="{ 'open' : listItem.isOpen}" @click="toggle(i)">
+          <div class="flex-1">
+            <Markdown :body="listItem.title" type="heading" class="hover:text-red" />
+          </div>
+          <transition name="rotate" mode="out-in">
+            <IconMinus v-if="listItem.isOpen" class="h-12 text-red ml-3 py-2 transform w-12 duration-500 icon group-hover:text-blue " />
+            <IconPlus v-else class="h-12 text-red ml-3 py-2 transform w-12 duration-500 icon group-hover:text-blue group-hover:rotate-90" />
+          </transition>
         </button>
-        <section class="transform duration-700" :class="[listItem.isOpen ? 'h-auto translate-y-0' : 'h-0 overflow-hidden translate-y-full' ]">
+        <section class="transform px-6 duration-700" :class="[listItem.isOpen ? 'accordian-open' : 'accordian-closed' ]">
           <Markdown :body="listItem.body" class="pt-6" />
         </section>
       </div>
@@ -26,7 +32,7 @@
   </section>
 </template>
 <script>
-
+import { createId } from '~/utils/helpers'
 export default {
   props: {
     list: {
@@ -48,6 +54,7 @@ export default {
     })
   },
   methods: {
+    createId,
     toggle (i) {
       this.copiedList[i].isOpen = !this.copiedList[i].isOpen
     }
@@ -55,6 +62,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.accordian-open{
+  @apply h-auto opacity-100 translate-y-0;
+}
+.accordian-closed{
+  @apply h-0 opacity-0 translate-y-full overflow-hidden;
+}
 
+::v-deep .paragraph[type="heading"] p:hover{
+  @apply text-red duration-500;
+}
+::v-deep button.open .paragraph[type="heading"] p{
+  @apply text-red duration-500;
+}
 </style>

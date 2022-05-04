@@ -23,7 +23,12 @@ body {
 .rounded-tl{
   border-top-left-radius: 5rem;
 }
-
+.rounded-br{
+  border-bottom-right-radius: 5rem;
+}
+.rounded-bl{
+  border-bottom-left-radius: 5rem;
+}
 .page-enter-active,
 .page-leave-active,
 .layout-enter-active,
@@ -44,4 +49,13 @@ body {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+
+.rotate-enter-active,
+.rotate-leave-active {
+  transition: all 0.25s ease-in-out;
+}
+.rotate-enter,
+.rotate-leave-to {
+  transform: rotate(90deg);
 }
