@@ -81,8 +81,7 @@ section:
       community volunteers who support with their skills and time. Gardening,
       building equipment, and running events and fundraising initiatives on
       behalf of the Playgroup, our volunteers do incredible things! If you would
-      like to support us as a volunteer, please contact us on
-      torphinsplaygroup.committee@gmail.com "
+      like to support us as a volunteer, please contact us via [email](mailto:torphinsplaygroup.committee@gmail.com)"
     title: Give Us Your Time
     image: /static/uploads/torphins-playgroup-0185.png
   - type: general-section
