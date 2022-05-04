@@ -17,7 +17,6 @@
 <script>
 import { normalizeLinks } from '~/utils/helpers'
 export default {
-
   data () {
     return {
       links: [],
@@ -32,6 +31,11 @@ export default {
   head () {
     return {
       bodyAttrs: { class: this.navigationOpen ? 'overflow-hidden' : '' }
+    }
+  },
+  watch: {
+    '$route' () {
+      this.navigationOpen = false
     }
   }
 }
