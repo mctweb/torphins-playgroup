@@ -1,12 +1,12 @@
 <template>
   <section class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
-    <div class="bg-white flex flex-col flex-wrap w-full p-12 z-10 items-center relative">
+    <div class="bg-white flex flex-col flex-wrap w-full p-6 z-10 items-center relative md:p-8 lg:p-12">
       <!-- <div class="flex-1">
         <Markdown :body="title" type="largeheading" />
         <Markdown :body="body" class="pt-6" />
       </div> -->
       <div v-for="(listItem,i) in copiedList" :id="createId(listItem.title)" :key="i" class="flex flex-wrap w-full p-6 z-10 items-center relative ">
-        <button class="bg-white rounded-lg flex outline-none text-left w-full p-6 duration-150 items-start group hover:bg-gray-100 hover:text-red !focus:outline-none" :class="{ 'open' : listItem.isOpen}" @click="toggle(i)">
+        <button class="bg-white rounded-lg flex outline-none text-left w-full p-3 duration-150 items-start group lg:p-6 hover:bg-gray-100 hover:text-red !focus:outline-none" :class="{ 'open' : listItem.isOpen}" @click="toggle(i)">
           <div class="flex-1">
             <Markdown :body="listItem.title" type="heading" class="hover:text-red" />
           </div>
@@ -15,7 +15,7 @@
             <IconPlus v-else class="h-12 text-red ml-3 py-2 transform w-12 duration-500 icon group-hover:text-blue group-hover:rotate-90" />
           </transition>
         </button>
-        <section class="transform px-6 duration-700" :class="[listItem.isOpen ? 'accordian-open' : 'accordian-closed' ]">
+        <section class="transform px-3 duration-700 lg:px-6" :class="[listItem.isOpen ? 'accordian-open' : 'accordian-closed' ]">
           <Markdown :body="listItem.body" class="pt-6" />
         </section>
       </div>
