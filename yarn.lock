@@ -7090,11 +7090,6 @@ jiti@^1.12.9, jiti@^1.9.2:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.12.9.tgz#2ce45b265cfc8dc91ebd70a5204807cf915291bc"
   integrity sha512-TdcJywkQtcwLxogc4rSMAi479G2eDPzfW0fLySks7TPhgZZ4s/tM6stnzayIh3gS/db3zExWJyUx4cNWrwAmoQ==
 
-jquery@^3.3.1:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
-  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
-
 js-beautify@^1.6.12, js-beautify@^1.6.14:
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.14.0.tgz#2ce790c555d53ce1e3d7363227acf5dc69024c2d"
@@ -11687,13 +11682,6 @@ vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.10.0:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^6.3.0"
-
-vue-facebook-page@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vue-facebook-page/-/vue-facebook-page-1.0.1.tgz#384abb057720780f700168c6ca64834049424a39"
-  integrity sha512-QSegYTPL0NsDmAlNzuhO7suBb1V5qLCgvW72j/AvVY7S1AODu7AOUbtiob6RGzkQTRqyRC0QVknNU3P9l/eAEQ==
-  dependencies:
-    jquery "^3.3.1"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

@@ -9,7 +9,6 @@ const mainImage = 'Torphins-Playgroup.svg'
 const keywords = 'Torphins Playgroup, Preschool, Aberdeenshire Childcare, Early Years Education Aberdeenshire, Outdoor preschool Aberdeenshire'
 
 export const sitePWA = {
-
   meta: {
     name,
     description,
@@ -23,7 +22,6 @@ export const sitePWA = {
     lang: 'en',
     useWebmanifestExtension: false
   }
-
 }
 const getSiteMeta = (meta, additional) => {
   const finalurl = meta && meta.url ? url + meta.url : url
