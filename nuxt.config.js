@@ -1,4 +1,5 @@
-import siteMeta from './utils/meta'
+import siteMeta, { sitePWA } from './utils/meta'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -53,11 +54,8 @@ export default {
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: 'en'
-    }
-  },
+
+  pwa: sitePWA,
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

@@ -1,11 +1,30 @@
 const type = 'website'
 const url = 'https://www.torphinsplaygroup.co.uk'
+const name = 'Torphins Playgroup Preschool'
+const shortName = 'Torphins Playgroup'
+const color = '#D41217'
 const title = 'Learning Through Play'
-const description =
-  'A fun, warm, inclusive preschool playgroup setting in Aberdeenshire'
+const description = 'A fun, warm, inclusive preschool playgroup setting in Aberdeenshire'
 const mainImage = 'Torphins-Playgroup.svg'
 const keywords = 'Torphins Playgroup, Preschool, Aberdeenshire Childcare, Early Years Education Aberdeenshire, Outdoor preschool Aberdeenshire'
 
+export const sitePWA = {
+
+  meta: {
+    name,
+    description,
+    theme_color: color
+  },
+  manifest: {
+    name,
+    description,
+    short_name: shortName,
+    background_color: '#fff',
+    lang: 'en',
+    useWebmanifestExtension: false
+  }
+
+}
 const getSiteMeta = (meta, additional) => {
   const finalurl = meta && meta.url ? url + meta.url : url
   return {
