@@ -81,13 +81,74 @@ section:
       childcare providers in Scotland is Setting the table
       (healthscotland.com).\r\n"
     title: "**Healthy Eating** at Torphins Playgroup Preschool"
-    file: /static/uploads/healthy-eating-policy-september-2021.docx
+    file: /static/uploads/Healthy Eating Policy September 2021.pdf
     button: Healthy Eating Policy
   - type: file-download-list
     downloads:
-      - title: Duty of Candour
-        button: Duty of Candour Statement
+      - title: About Torphins Playgroup Pre-School
+        file: /static/uploads/About Torphins Playgroup Pre-School June 2020.pdf
+      - title: Additional Support for Learning Policy
+        file: /static/uploads/Additional Support for Learning Policy October 2020.pdf
+      - title: Administration of Medication Policy
+        file: /static/uploads/Administration of Medication Policy Jan 2022.pdf
+      - title: Settling In Policy
+        file: /static/uploads/Admissions  Settling In Policy March 2022.pdf
+      - title: Anti-Bullying and Harassment Policy
+        file: /static/uploads/Anti-Bullying and Harassment Policy Oct 2020.pdf
+      - title: Arrival & Collection Routine
+        file: /static/uploads/Arrival and Collection Routine  Oct 2021.pdf
+      - title: Attendance Policy & Procedure for Absent Children
+        file: /static/uploads/Attendance Policy and Procedure for Absent Children June 2021.pdf
+      - title: Child Protection Policy
+        file: /static/uploads/Child Protection Policy March 2022.pdf
+      - title: Committee Role Descriptions
+        file: /static/uploads/Committee-Role-Descriptions-2022.pdf
+      - title: Duty of Candour Policy February 2022
+        file: /static/uploads/Complaints-Duty of Candour Policy February 2022.pdf
+      - title: Duty of Candour Report to March 2021
         file: /static/uploads/duty-of-candour-report-to-march-2021.docx
+      - title: Confidentiality Policy
+        file: /static/uploads/Confidentiality Policy Jun 2020.pdf
+      - title: Critical Incidents Policy
+        file: /static/uploads/Critical Incidents Policy Oct 2021.pdf
+      - title: Curriculum Policy
+        file: /static/uploads/Curriculum Policy March 2022.pdf
+      - title: Equal Opportunities Policy
+        file: /static/uploads/Equal Opportunities Policy June 2020.pdf
+      - title: Fee Collection & Payment Policy
+        file: /static/uploads/Fee Collection and Payment Policy Jun 2020.pdf
+      - title: General Data Protection Regulation Policy
+        file: /static/uploads/General Data Protection Regulation Policy June 2020.pdf
+      - title: Health & Safety Policy
+        file: /static/uploads/Health and Safety Policy June 2020.pdf
+      - title: Healthy Eating Policy
+        file: /static/uploads/Healthy Eating Policy September 2021.pdf
+      - title: ICT Policy
+        file: /static/uploads/ICT Policy June 2020.pdf
+      - title: Infection Control Policy
+        file: /static/uploads/Infection Control Policy March 2020.pdf
+      - title: Missing Child Guidance
+        file: /static/uploads/Missing-Child-Guidance_99a066.pdf
+      - title: Nappy Changing Policy
+        file: /static/uploads/Nappy Changing Policy June 2020.pdf
+      - title: Menu
+        file: /static/uploads/nursery-menu-april-2022_95505.pdf
+      - title: Outings Policy
+        file: /static/uploads/Outings Policy August 2021.pdf
+      - title:  Parental Responsibility Policy
+        file: /static/uploads/Parent Carer Participation Policy February 2022.pdf
+      - title: Promoting Positive Behaviour Policy
+        file: /static/uploads/Promoting Positive Behaviour Policy Sep 2021.pdf
+      - title: Responsive Care & Safe Sleep Policy
+        file: /static/uploads/Responsive Care and Safe Sleep Policy November 2021.pdf
+      - title: Safe Recruitment Policy
+        file: /static/uploads/Safe Recruitment Policy Jan 2022.pdf
+      - title: Self Evaluation Policy
+        file: /static/uploads/Self-evaluation Policy May 2019.pdf
+      - title: Smoking, Alcohol & Substace Use Policy
+        file: /static/uploads/Smoking, Alcohol and Substance Use policy Jun 2020.pdf
+      - title: Staff Development Policy
+        file: /static/uploads/Staff Development Policy May 2020.pdf
       - title: Annual Accounts
         url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=8749
 ---

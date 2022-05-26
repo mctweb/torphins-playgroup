@@ -51,6 +51,15 @@ body {
   opacity: 0;
 }
 
+.fade-up-enter-active,
+.fade-up-leave-active {
+  transition: all 0.25s ease-in-out;
+}
+.fade-up-enter,
+.fade-up-leave-to {
+  opacity: 0;
+  transform: translateY(-10px)
+}
 .rotate-enter-active,
 .rotate-leave-active {
   transition: all 0.25s ease-in-out;
