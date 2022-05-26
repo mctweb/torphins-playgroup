@@ -107,7 +107,7 @@ section:
           Excellence](https://education.gov.scot/documents/All-experiencesoutco\
           mes18.pdf), [Pre-Birth to
           Three](https://www.stirling.gov.uk/media/1389/elc2_prebirthtothreeboo\
-          klet.pdf), and [Getting It Right For Every Child
+          klet.pdf), Realising The Ambition: Being Me, and [Getting It Right For Every Child
           (GIRFEC)](https://www.gov.scot/policies/girfec/) to support children
           as they grow and develop in their learning.\r
 

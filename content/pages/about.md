@@ -9,7 +9,7 @@ section:
       Aberdeenshire for children from the age of 2 until they attend primary
       school.
 
-      Torphins Playgroup Preschool is committed to child-led learning through play. We follow the Scottish National Curriculums, the Curriculum for Excellence and the Pre-birth to Three Curriculum as well as the Getting It Right For Every Child (GIRFEC) framework, and were awarded a score of ‘4 – Good’ at our most recent [Care Inspectorate inspection](https://www.careinspectorate.com/index.php/care-services?detail=CS2003002532)
+      Torphins Playgroup Preschool is committed to child-led learning through play. We follow the Scottish National Curriculums, the Curriculum for Excellence, the Pre-birth to Three Curriculum, Realising The Ambition: Being Me, as well as the Getting It Right For Every Child (GIRFEC) framework, and were awarded a score of ‘4 – Good’ at our most recent [Care Inspectorate inspection](https://www.careinspectorate.com/index.php/care-services?detail=CS2003002532)
 
       Parents are integral to Playgroup - running the charity as a committee, leading the playgroup in everything from hiring staff to policy making, and volunteering in the setting itself. The Committee fundraises from a wide variety of sources including grants, trusts and foundations \[link to support us page], as well as public events and online appeals. As well as this, parents are involved as volunteers, taking part in parent duties in the setting itself (Covid-19 allowing). This is a unique opportunity to really see how your children learn and take a role in their early years’ education. 
 
@@ -22,7 +22,7 @@ section:
     team:
       - description: Sarah is the Manager at Torphins Playgroup Pre-school. Having
           joined in 2018, she completed her SVQ Level 4 and has been leading the
-          team as Manager since November 2020. Sarah continues to further her
+          team as Manager since November 2019. Sarah continues to further her
           knowledge and attend relevant training so she can provide the best
           support and guidance for the team, whilst ensuring the children enjoy
           a vast range of play experiences. Her favourite activity with the
@@ -32,7 +32,7 @@ section:
         download: /static/uploads/meet-the-team-sarah.pdf
       - description: Carol is our Lead Early Years Practitioner. Carol has been heavily
           involved with the Playgroup since her own children attended, and
-          decided to join the team in 2016 and gain her SVQ Level 3. Carol loves
+          decided to join the team in 2017 and gain her SVQ Level 3. Carol loves
           supporting the children with their communication skills, whether that
           be by reading together, singing songs or encouraging the children in
           discussions about what interests them.
@@ -115,7 +115,7 @@ section:
     Flip: true
   - type: general-section
     flip: true
-    title: Eligible **2 Year Old Funded Places**
+    title: 2 Nurture **unded Places**
     body: >-
       Your 2 year old child is eligible and entitled to a free nursery place if
       you receive one of the qualifying benefits and allowances:
