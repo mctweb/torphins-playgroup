@@ -9,46 +9,37 @@ section:
     image: /static/uploads/torphins-playgroup-0233.png
   - type: list-section
     list:
-      - body: Yes. We accommodate the needs of all children at Playgroup. The team works
-          closely with the local authority as well as Health Visitors and child
-          development teams to ensure that your child has every opportunity to
-          learn and develop towards their personal milestones at their own pace
+      - body: Yes. The team works closely with the local authority, Health Visitors and
+          health professionals (such as educational psychologists and speech and
+          language therapists)  to ensure that we meet the needs of all children
+          at our inclusive Playgroup.  We want your child to have every
+          opportunity to learn and develop towards their personal milestones,
+          with the correct support in place.
         title: My child has additional support needs, can they come to your Playgroup?
-      - body: "The main difference between a private nursery and a playgroup preschool
-          is that a private nursery opens for longer hours for much of the year
-          including holidays. As a partner setting to the Aberdeenshire local
-          authority, Torphins Playgroup Preschool is open in termtime for normal
-          school hours to reflect the routine of a normal school day.\r
+      - body: >-
+          The main difference between a private nursery and a playgroup
+          preschool is that a private nursery opens for longer hours for much of
+          the year, including holidays. As a partner setting to the
+          Aberdeenshire local authority, Torphins Playgroup Preschool offers
+          1140 hours per year. We are  open term time  from 9am to 3pm to
+          reflect the routine of a normal school day.
 
-          A school nursery will have similar goals to Torphins
-          Playgroup Preschool, but their setting is usually physically based
-          within the school grounds which gives a close link with the school
-          atmosphere and routines. School nursery settings usually take children
-          from the age of 3 years old.\r
+          A school nursery will offer the same curriculum and standard of learning as Torphins Playgroup Preschool, but their setting is usually physically based within the school grounds which gives a close link with the school atmosphere and routines. School nursery settings usually take children from the age of 3 years old.
 
-          A normal Playgroup setting is a free-flowing play and care
-          setting, usually not linked to the national curriculum or Care
-          Inspectorate. Sometimes, parents are required to stay.\r
+          A  traditional Playgroup setting is a free-flowing play and care setting, usually not linked to the national curriculum or Care Inspectorate. Sometimes, parents are required to stay.
 
-          Torphins Playgroup Preschool is different – we have the
-          free-play aspect of a playgroup, and we weave the curriculum through
-          everything we do using a child-led, play based approach. We are
-          regulated by the Care Inspectorate and have children with us from the
-          age of 2, supporting their learning and development all the way to
-          preparing them for transitioning into P1. We provide an alternative
-          setting for parents looking for places at school nurseries or in
-          private nursery preschools.\r\n"
+          Torphins Playgroup Preschool is different – we have the free-play aspect of a playgroup, and we weave the curriculum through everything we do using a child-led, play based approach. We are regulated by the Care Inspectorate and have children with us from the age of 2, supporting their learning and development all the way to preparing them for transitioning into P1. We provide an alternative setting for parents looking for places at school nurseries or in private nursery preschools.
         title: What’s the difference between a nursery and a playgroup / preschool like
           Torphins Playgroup?
-      - body: At Torphins Playgroup Preschool, we understand every child is different.
-          We are a child led setting and work to the pace of your child. We
-          settle each child in individually, so this will be discussed between
-          with you to decide everything from when your child will begin the
-          settling in period to how many and for how long your child will attend
-          in this crucial period. An e mail will be sent to confirm all
+      - body: "At Torphins Playgroup Preschool, we understand every child is different.
+          We are a child-led setting and work to the pace of your child. We
+          settle each child in individually, so this will be discussed with you
+          to decide everything from when your child will begin the settling in
+          period to how many days? and for how long your child will attend in
+          this crucial period. An e mail will be sent to confirm all
           information, and your child will be allocated a key worker from the
           staff team who will be responsible for making sure your child has a
-          safe, happy and comfortable time at Playgroup.
+          safe, happy and comfortable time at Playgroup.\r\n"
         title: How will you help my child settle in?
       - body: "Most days, the children are delighted to arrive at Playgroup, but every
           child will have days when they feel unsure or upset. If they are
@@ -64,6 +55,10 @@ section:
           something else we could be doing to help your child settle into their
           day.\r\n"
         title: What if my child is upset after I leave?
+      - body: Torphins Playgroup Preschool’s policy on Infection Control is available in
+          our [policies area](/resources). We ensure that this is kept up to
+          date with all current Scottish Government  guidelines.
+        title: What Covid-19 precautions are in place?
       - body: "Torphins Playgroup is a Local Authority Partner Organisation and as such,
           we follow the terms and holiday periods of our local school, Torphins
           Primary School. For details of Aberdeenshire Council term dates visit
@@ -107,7 +102,9 @@ section:
           Excellence](https://education.gov.scot/documents/All-experiencesoutco\
           mes18.pdf), [Pre-Birth to
           Three](https://www.stirling.gov.uk/media/1389/elc2_prebirthtothreeboo\
-          klet.pdf), Realising The Ambition: Being Me, and [Getting It Right For Every Child
+          klet.pdf), [Realising The Ambition: Being
+          Me](https://education.gov.scot/media/3bjpr3wa/realisingtheambition.pd\
+          f), and [Getting It Right For Every Child
           (GIRFEC)](https://www.gov.scot/policies/girfec/) to support children
           as they grow and develop in their learning.\r
 
@@ -129,13 +126,12 @@ section:
         title: What curriculum do you follow?
       - body: We consider the Playgroup Garden as one of our most valuable resources and
           regard outdoor activities as a natural enhancement and extension of
-          our indoor environment. We offer free flow play this allows your child
-          to choose whether they would like to play inside or outside during
-          their session. We encourage the children to commence their day
-          outside. Children can access, paints, puzzles and books outside as
-          well as the physical equipment, such as bikes and swings. We believe
-          that outdoor play has just as much to offer the children as our indoor
-          environment.
+          our indoor environment. We offer free flow play meaning your child can
+          choose whether they would like to play inside or outside during their
+          session. We encourage the children to commence their day outside.
+          Children can access, paints, puzzles and books outside as well as the
+          physical equipment, such as bikes and swings. We believe that outdoor
+          play has just as much to offer the children as our indoor environment.
         title: How much time do you spend outside?
       - body: "## What is play?
 
@@ -172,14 +168,14 @@ section:
           national strategy for
           play](https://www.gov.scot/resource/0042/00425722.pdf)  \r\n"
         title: What is ‘Learning through Play’?
-      - body: " At Playgroup we are out in the garden as much as possible, experimenting
+      - body: "At Playgroup we are out in the garden as much as possible, experimenting
           and exploring. During the summer months we ask parents and carers to
           apply sunscreen to their child before they come to Playgroup. If your
-          child is with us for a full day session, we can reapply during from a
-          bottle that you provide to us (please note that this is one of the
-          things that we require written consent for in the child’s care plan –
-          this will be discussed in more detail closer to your child’s start
-          date). \r
+          child is with us for a full day session, we can reapply  sunscreen
+          from a bottle that you provide to us (please note that this is one of
+          the things that we require written consent for in the child’s care
+          plan – this will be discussed in more detail closer to your child’s
+          start date). \r
 
           In the winter months we take advice on closure from
           Aberdeenshire Council. If Torphins Primary School closes due to the
@@ -189,15 +185,24 @@ section:
           parents/carers will be notified via e mail and our Facebook
           page.  \r\n"
         title: "What happens if it snows or is very sunny? "
-      - body: >-
-          Children and parents are entitled to expect the highest quality in
+      - body: "Children and parents are entitled to expect the highest quality in
           childcare practice. Observing is an essential element in achieving
           quality childcare practice because it helps us to ‘know’ the children
           in our care. It leads to an understanding of the children’s
-          developmental needs and helps us to plan appropriately. 
+          developmental needs and helps us to plan appropriately. \r
 
-          We use [Learning Journals](https://learningjournals.co.uk/) to record your child’s journey at playgroup. This is linked to different curricular areas where we can track how your child is progressing. Parents will receive an email to connect to their child’s Learning Journal once the child commences. Parents and children can take ownership of these journals and can freely add observations and stories from home learning and experiences.
+          We use [Learning Journals](https://learningjournals.co.uk/)
+          to record your child’s journey at playgroup. This is linked to
+          different curricular areas where we can track how your child is
+          progressing. Parents will receive an email to connect to their child’s
+          Learning Journal once the child commences. Parents and children can
+          take ownership of these journals and can freely add observations and
+          stories from home learning and experiences.\r
 
-          Throughout your child’s time with us we will give you regular verbal feedback on their progress holding parent consultations. During your child’s time at Playgroup, we also take several photographs to show the children’s progression as well as for quality assurance.
+          Throughout your child’s time with us we will give you
+          regular verbal feedback on their progress,  offering parent
+          consultations termly. During your child’s time at Playgroup, we also
+          take several photographs to show the children’s progression as well as
+          for quality assurance. \r\n"
         title: How will I know what my child has been doing in the sessions?
 ---
