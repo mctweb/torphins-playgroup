@@ -1,6 +1,6 @@
 <template>
   <section :id="'Policies'" class="flex flex-wrap mx-auto  py-32  relative items-center">
-    <div class="mx-12 w-full">
+    <div class="flex mx-12 w-full justify-center">
       <input v-model="searchTerm" type="text" class="bg-white border-red rounded-lg font-black mx-auto border-4 w-full max-w-2xl py-4 px-6 z-20 relative lg:text-xl" placeholder="Search Resources">
     </div>
     <transition-group tag="ul" class=" flex flex-wrap w-full p-12 z-10 gap-3 justify-center items-center relative" name="fade-up">
