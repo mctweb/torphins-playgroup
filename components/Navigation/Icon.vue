@@ -1,5 +1,5 @@
 <template>
-  <button class="hamburger" :class="{open:open}" @click="$emit('click')">
+  <button class="hamburger" :class="{open:open}" aria-label="Menu" @click="$emit('click')">
     <span class="bar bar1" />
     <span class="bar bar2" />
     <span class="bar bar3" />

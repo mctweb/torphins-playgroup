@@ -1,9 +1,9 @@
 <template>
   <footer class="bg-white border-blue border-t-4 w-full p-6 md:p-12 lg:p-24 xl:p-32">
-    <img src="/avatars/all.svg" class="h-auto mx-auto w-full max-w-9xl pb-12 lg:pb-24">
+    <img src="/avatars/all.svg" class="h-auto mx-auto w-full max-w-9xl pb-12 lg:pb-24" role="presentation">
     <div id="Contact" class="flex flex-wrap mx-auto max-w-9xl items-center">
       <section class="flex flex-col font-black order-2 w-full py-6 md:text-lg lg:order-1 lg:text-2xl lg:w-1/2">
-        <NuxtLink v-for="(link,i) in links" :key="i" :to="link.page" class="mb-1 duration-150 lg:mb-2 hover:text-red">
+        <NuxtLink v-for="(link,i) in links" :key="i" :to="link.page" class="pb-1 duration-150 lg:pb-2 hover:text-red">
           {{ link.text }}
         </NuxtLink>
       </section>

@@ -6,6 +6,7 @@
           :src="image.image"
           :alt="image.title || null"
           class="h-screen object-cover w-full"
+          loading="lazy"
         >
       </div>
       <template slot="prevButton">

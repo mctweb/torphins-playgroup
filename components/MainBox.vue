@@ -2,14 +2,14 @@
   <section class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
     <div class="flex w-full relative lg:w-1/2" :class="[flip ? 'pl-12 lg:order-2' : 'pr-12']">
       <div v-if="image" class=" bg-gray-300 shadow-xl w-full min-h-72 z-3 relative overflow-hidden" :class="[ flip ? 'rounded-tl' : 'rounded-tr']">
-        <img :src="image" :alt="title" class="h-full object-cover w-full">
+        <img :src="image" :alt="title" class="h-full object-cover w-full" loading="lazy">
       </div>
       <div class="inset-0 z-0 absolute">
         <CircleDec color="blue" :flip="flip" />
         <CircleDec stripes :flip="flip" />
       </div>
       <div class=" z-5 absolute" :class="[flip ? 'br' : 'bl']">
-        <img :src="icon" class="h-auto w-32">
+        <img :src="icon" class="h-auto w-32" role="presentation">
       </div>
     </div>
     <div class="w-full px-12 pt-12 z-10 relative lg:flex-1 lg:pt-0" :class="[flip ? 'lg:order-1' : '']">

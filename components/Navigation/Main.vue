@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-white bg-blend-screen  flex bg-opacity-50 text-blue w-full px-12 top-0 z-50 fixed backdrop-filter backdrop-blur-lg justify-between items-center">
     <header class="h-24 py-6">
-      <img src="/Logo-Text.svg" class="h-full w-auto">
+      <img src="/Logo-Text.svg" class="h-full w-auto" alt="Torphins Preschool Playgroup">
     </header>
     <section class="flex  h-24 z-50 items-center justify-center lg:hidden">
       <NavigationIcon :open="navigationOpen" @click="navigationOpen = !navigationOpen" />
@@ -27,7 +27,6 @@ export default {
     if (this.links.length) { return }
     const navigation = await this.$content('settings/navigation').fetch()
     this.links = normalizeLinks(navigation.links, 'page')
-    console.log(this.links)
   },
   head () {
     return {
