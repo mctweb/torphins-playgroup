@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col overflow-x-hidden">
     <div v-for="(section,i) in page.section" :key="i" class="relative">
+      {{ page.title }}
       <component :is="'main-' + section.type" v-bind="section" :icon="icons[i]" />
     </div>
   </div>
@@ -11,6 +12,7 @@ import { replaceAll, icons } from '~/utils/helpers'
 import meta from '~/utils/meta'
 export default {
   async asyncData ({ $content, app, params, route, error }) {
+    console.log(route)
     let slug = params.slug.replace(/\s+/g, '-').toLowerCase() || null
     if (route.name === 'index') {
       slug = 'homepage'
