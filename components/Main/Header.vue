@@ -2,14 +2,14 @@
   <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
     <div class="flex order-2 w-full pl-12 relative md:w-1/2">
       <div class="rounded-tl h-full bg-gray-300 shadow-xl w-full min-h-72 z-10 relative overflow-hidden">
-        <nuxt-img
+        <nuxt-picture
+          :img-attrs="{class:'h-full object-cover w-full'}"
           :src="image"
           :alt="title"
-          class="h-auto object-cover w-full"
-          preload
+          loading="lazy"
           quality="80"
-          height="800"
-          width="600"
+          height="600"
+          width="800"
           fit="cover"
         />
       </div>
