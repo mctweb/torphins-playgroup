@@ -11,7 +11,7 @@ section:
 
       Torphins Playgroup Preschool is committed to child-led learning through play. We follow the Scottish National Curriculums, the Curriculum for Excellence, the Pre-birth to Three Curriculum, Realising The Ambition: Being Me, as well as the Getting It Right For Every Child (GIRFEC) framework, and were awarded a score of ‘4 – Good’ at our most recent [Care Inspectorate inspection](https://www.careinspectorate.com/index.php/care-services?detail=CS2003002532)
 
-      Parents are integral to Playgroup - running the charity as a committee, leading the playgroup in everything from hiring staff to policy making, and volunteering in the setting itself. The Committee fundraises from a wide variety of sources including grants, trusts and foundations \[link to support us page], as well as public events and online appeals. As well as this, parents are involved as volunteers, taking part in parent duties in the setting itself (Covid-19 allowing). This is a unique opportunity to really see how your children learn and take a role in their early years’ education. 
+      Parents are integral to Playgroup - running the charity as a committee, leading the playgroup in everything from hiring staff to policy making, and volunteering in the setting itself. The Committee fundraises from a wide variety of sources including grants, trusts and foundations [as well as public events and online appeals](/support-us). As well as this, parents are involved as volunteers, taking part in parent duties in the setting itself (Covid-19 allowing). This is a unique opportunity to really see how your children learn and take a role in their early years’ education. 
 
       No other childcare facility in our local area provides this combination of benefits. We are a genuine preschool that gives children the freedom to learn and experience the world through play in a caring, safe environment, guiding them while they develop through the early years curriculum, all with the close involvement of their care-givers and families.
     title: About Us
@@ -229,12 +229,12 @@ section:
     title: Our Commitments
     image: /static/uploads/torphins-playgroup-0143.png
   - type: gallery
-    image:
-      - image: /static/uploads/torphins-playgroup-0217.png
-      - image: /static/uploads/torphins-playgroup-0174.png
-      - image: /static/uploads/torphins-playgroup-0055.png
     images:
       - image: /static/uploads/torphins-playgroup-0061.png
+        name: Learning Life Skills
       - image: /static/uploads/torphins-playgroup-0236.png
+        name: Learning Through Play
       - image: /static/uploads/torphins-playgroup-0290.png
+        name: Messy Play
+
 ---

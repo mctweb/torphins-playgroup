@@ -1,7 +1,16 @@
 <template>
   <div :id="'Meet The Team - ' + name" class="relative ">
     <div class="rounded-tr rounded-bl h-96 -mb-20 ml-6 w-64 z-20 overflow-hidden">
-      <img :src="image" class="h-full object-cover w-full" :alt="name" loading="lazy">
+      <nuxt-img
+        :src="image"
+        class="h-full object-cover w-full"
+        :alt="name"
+        loading="lazy"
+        quality="80"
+        height="600"
+        width="400"
+        fit="cover"
+      />
     </div>
     <div class="bg-white rounded-tr flex flex-col p-6 pt-24 md:p-8 md:pt-24 lg:p-12 lg:pt-24">
       <h4 class="font-black text-red pt-6 pb-3 text-2xl">

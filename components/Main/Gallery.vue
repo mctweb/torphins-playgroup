@@ -2,18 +2,22 @@
   <client-only placeholder="Loading...">
     <agile autoplay class="relative">
       <div v-for="(image, i) in images" :key="i" class="slide">
-        <img
+        <nuxt-img
           :src="image.image"
-          :alt="image.title || null"
+          :alt="image.name || null"
           class="h-screen object-cover w-full"
           loading="lazy"
-        >
+          quality="80"
+          height="800"
+          width="1600"
+          fit="cover"
+        />
       </div>
       <template slot="prevButton">
-        <IconArrow class="h-12 p-2 transform w-12 rotate-180" />
+        <IconArrow class="h-12 p-2 transform w-12 rotate-180" aria-label="Gallery Previous" />
       </template>
       <template slot="nextButton">
-        <IconArrow class="h-12 p-2 w-12" />
+        <IconArrow class="h-12 p-2 w-12" aria-label="Gallery Next" />
       </template>
     </agile>
   </client-only>
