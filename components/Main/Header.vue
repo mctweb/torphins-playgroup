@@ -2,7 +2,16 @@
   <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
     <div class="flex order-2 w-full pl-12 relative md:w-1/2">
       <div class="rounded-tl h-full bg-gray-300 shadow-xl w-full min-h-72 z-10 relative overflow-hidden">
-        <img :src="image" :alt="title" class="h-auto object-cover w-full">
+        <nuxt-img
+          :src="image"
+          :alt="title"
+          class="h-auto object-cover w-full"
+          preload
+          quality="80"
+          height="800"
+          width="600"
+          fit="cover"
+        />
       </div>
       <div class="inset-0 z-1 absolute">
         <CircleDec color="blue" :min="400" :max="700" top flip />
