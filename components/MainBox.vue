@@ -18,7 +18,7 @@
         <CircleDec color="blue" :flip="flip" />
         <CircleDec stripes :flip="flip" />
       </div>
-      <div class=" z-5 absolute" :class="[flip ? 'br' : 'bl']">
+      <div v-if="icon" class=" z-5 absolute" :class="[flip ? 'br' : 'bl']">
         <img
           :src="icon"
           class="h-auto w-32"

@@ -1,6 +1,67 @@
 <template>
-  <div>
-    <!-- <div id="8f85c978_1651654730" class="powr-social-feed" /> -->
-    <!-- <FacebookPage /> -->
-  </div>
+  <section class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
+    <div class="flex flex-wrap w-full px-12 pt-12 pb-6 z-10 relative items-center lg:flex-1 lg:pt-0">
+      <div class="flex flex-col flex-1">
+        <Markdown :body="title" type="largeheading" />
+        <Markdown :body="body" type="heading" />
+      </div>
+
+      <ButtonInternal v-if="$route.name !== 'news'" to="/news">
+        View All Articles
+      </ButtonInternal>
+    </div>
+    <div v-for="(article, i) in articles" :key="i" class="mt-12">
+      <ArticleCard v-bind="article" />
+    </div>
+    .
+  </section>
 </template>
+
+<script>
+import { replaceAll } from '~/utils/helpers'
+export default {
+  props: {
+    title: {
+      type: String,
+      default: ''
+    },
+    body: {
+      type: String,
+      default: ''
+    }
+  },
+  data () {
+    return {
+      articles: []
+    }
+  },
+  async fetch () {
+    if (this.$route.name === 'news') {
+      this.articles = await this.$content('news')
+        .fetch()
+        .then((articles) => {
+          return articles.map(x => replaceAll(x, 'static/', ''))
+        })
+    } else {
+      this.articles = await this.$content('news')
+        .limit(1)
+        .fetch()
+        .then((articles) => {
+          return articles.map(x => replaceAll(x, 'static/', ''))
+        })
+    }
+  }
+}
+</script>
+
+<style scoped>
+.bl{
+  bottom: -3em;
+  left: -3em;
+}
+.br{
+  bottom: -3em;
+  right: -3em;
+}
+
+</style>

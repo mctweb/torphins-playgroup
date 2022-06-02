@@ -31,3 +31,13 @@ export const createId = function (title) {
   const id = title.replaceAll('*', '')
   return id
 }
+
+export const humanizeDate = function (date) {
+  const options = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }
+  return new Date(date).toLocaleDateString('en-UK', options)
+}

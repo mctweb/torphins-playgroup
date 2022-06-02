@@ -28,5 +28,7 @@ links:
     text: Resources
   - page: Support Us
     text: Support Us
+  - text: News
+    page: News
 ---
 Torphins Playgroup

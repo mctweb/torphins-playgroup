@@ -8,6 +8,8 @@ links:
     page: Learning Through Play
   - text: Support Us
     page: Support Us
+  - text: News
+    page: News
   - text: FAQ's
     page: FAQs
 ---

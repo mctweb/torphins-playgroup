@@ -92,4 +92,7 @@ section:
         uid: Menu
         page: Resources
     image: /static/uploads/torphins-playgroup-0004.png
+  - type: news-articles
+    title: What's Happening?
+    body: Find out what's happening at Torphins Playgroup Preschool.
 ---

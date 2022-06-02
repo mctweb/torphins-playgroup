@@ -11,13 +11,9 @@ import { replaceAll, icons } from '~/utils/helpers'
 import meta from '~/utils/meta'
 export default {
   async asyncData ({ $content, app, params, route, error }) {
-    let slug = params.slug.replace(/\s+/g, '-').toLowerCase() || null
-    if (route.name === 'index') {
-      slug = 'homepage'
-    }
     const thepage = await $content('pages')
       .where({
-        slug
+        slug: 'news'
       })
       .fetch()
       .catch(() => {
