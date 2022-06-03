@@ -18,7 +18,6 @@
         color="blue"
         stripes
         :flip="flip"
-
         :min="200"
         :max="500"
       />

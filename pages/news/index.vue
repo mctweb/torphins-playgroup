@@ -15,6 +15,7 @@ export default {
       .where({
         slug: 'news'
       })
+
       .fetch()
       .catch(() => {
         return error({ statusCode: 404, message: 'Page not found' })

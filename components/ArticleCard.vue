@@ -15,7 +15,7 @@
     </div>
     <div class="flex flex-col flex-1 py-12 px-12 z-10 relative md:pr-0 ">
       <Markdown :body="title" type="heading" />
-      <p class="mt-3 text-red mb-6">
+      <p class="mt-3 text-red mb-6 text-right w-full font-bold">
         {{ humanizeDate(createdAt) }}
       </p>
       <Markdown :body="brief" />

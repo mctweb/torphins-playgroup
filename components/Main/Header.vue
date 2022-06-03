@@ -19,8 +19,8 @@
       </div>
     </div>
     <div class="order-1 w-full p-12 pr-12 z-10 relative md:flex-1">
-      <Markdown :body="title" type="heading" />
-      <Markdown :body="body" type="heading" />
+      <Markdown :body="title" type="heading" class="animate-in" />
+      <Markdown :body="body" type="heading" class="animate-in" />
       <div v-for="(button,index) in buttons" :key="index" class="">
         <ButtonInternal v-bind="button">
           {{ button.text }}

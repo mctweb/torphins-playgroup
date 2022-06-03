@@ -21,7 +21,7 @@ section:
       We will always need our community, now more than ever. This page
       gives some ideas of how you can support us to keep supporting you!\r\n"
     title: Support Us
-    image: /static/uploads/header.png
+    image: /static/uploads/torphins-playgroup-0206.png
   - type: standout
     flip: true
     title: How Can You Support Torphins Playgroup Preschool?
