@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white border-blue border-t-4 w-full p-6 md:p-12 lg:p-24 xl:p-32">
+  <footer class="bg-white border-blue border-t-4 w-full p-6 md:p-12 lg:p-24 xl:px-32">
     <img
       src="/avatars/all.svg"
       class="h-auto mx-auto w-full max-w-9xl pb-12 lg:pb-24"
@@ -21,6 +21,9 @@
     <p class="text-sm text-center w-full pt-12">
       Copyright © {{ new Date().getFullYear() }} Torphins Playgroup. All rights reserved.
     </p>
+    <div class="w-full justify-center flex mt-12 text-gray-700">
+      <MCT />
+    </div>
   </footer>
 </template>
 
