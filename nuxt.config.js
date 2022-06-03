@@ -1,5 +1,4 @@
 import siteMeta, { sitePWA } from './utils/meta'
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -48,7 +47,9 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    '@nuxtjs/sitemap'
+
   ],
   markdownit: {
     preset: 'default',
@@ -56,6 +57,30 @@ export default {
     linkify: true,
     breaks: true
     // ]
+  },
+
+  sitemap: {
+    hostname: 'https://torphinsplaygroup.co.uk',
+    gzip: true,
+    exclude: [
+      '/admin/**'
+    ],
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+      const pages = await $content('pages')
+        .only(['path'])
+        .fetch()
+      const articles = await $content('news').only(['path']).fetch()
+      return [...pages, ...articles].map((file) => {
+        const path = file.path.replace('/pages', '')
+        console.log(path)
+        return ['/homepage', 'homepage', '/'].includes(path) ? '' : path + '/'
+      })
+    }
+  },
+  generate: {
+    fallback: '404.html'
+
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

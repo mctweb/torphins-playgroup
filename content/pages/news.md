@@ -8,5 +8,4 @@ section:
     body: See what's happening at Torphins Playgroup Preschool
     title: News
     image: /static/uploads/torphins-playgroup-0026.png
-  - type: news-articles
 ---

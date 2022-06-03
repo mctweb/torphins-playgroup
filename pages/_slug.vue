@@ -12,7 +12,7 @@ import meta from '~/utils/meta'
 export default {
   async asyncData ({ $content, app, params, route, error }) {
     let slug = params.slug.replace(/\s+/g, '-').toLowerCase() || null
-    if (route.name === 'index') {
+    if (route.name === 'index' || route.name === '/') {
       slug = 'homepage'
     }
     const thepage = await $content('pages')
@@ -23,6 +23,7 @@ export default {
       .catch(() => {
         return error({ statusCode: 404, message: 'Page not found' })
       })
+    if (!thepage.length) { return error({ statusCode: 404, message: 'Page not found' }) }
     const page = thepage[0]
 
     return { page: replaceAll(page, 'static/', '') }
@@ -37,7 +38,6 @@ export default {
       })
     }
   },
-
   computed: {
     icons () {
       if (!this.page || !this.page.section.length) { return }
@@ -48,6 +48,9 @@ export default {
       }
       return allIcons
     }
+  },
+  mounted () {
+    console.log(this.$route.path)
   }
 }
 </script>

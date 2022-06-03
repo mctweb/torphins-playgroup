@@ -24,7 +24,10 @@ export const sitePWA = {
   }
 }
 const getSiteMeta = (meta, additional) => {
-  const finalurl = meta && meta.url ? url + meta.url : url
+  let finalurl = url
+  if (meta && meta.url && meta.url !== '/') {
+    finalurl = url + meta.url
+  }
   return {
     title: (meta && meta.title) || title,
     link: [

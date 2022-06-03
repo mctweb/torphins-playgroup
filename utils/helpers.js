@@ -10,7 +10,7 @@ export const normalizeLinks = function (links, location) {
     const to = x[location].replace(/\s+/g, '-').toLowerCase()
     return {
       ...x,
-      [location]: to === 'homepage' ? '/' : '/' + to
+      [location]: to === 'homepage' ? '/' : '/' + to + '/'
     }
   })
 }

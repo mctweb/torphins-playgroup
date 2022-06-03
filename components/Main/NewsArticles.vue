@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-wrap mx-auto max-w-7xl  relative items-center " :class="[isNewsPage ? 'pb-32' : 'py-32']">
+  <section class="flex flex-wrap mx-auto max-w-7xl  relative items-center py-32 " :class="[isNewsPage ? 'pb-32' : 'py-32']">
     <div class="flex flex-wrap w-full px-12 pt-12 pb-6 z-10 relative items-center lg:flex-1 lg:pt-0">
       <div class="flex flex-col flex-1">
         <Markdown :body="title" type="largeheading" />
@@ -13,7 +13,6 @@
     <div v-for="(article, i) in articles" :key="i" class="mt-12">
       <ArticleCard v-bind="article" />
     </div>
-    .
   </section>
 </template>
 
@@ -37,21 +36,12 @@ export default {
     }
   },
   async fetch () {
-    if (this.isNewsPage) {
-      this.articles = await this.$content('news')
-        .sortBy('createdAt', 'asc')
-        .fetch()
-        .then((articles) => {
-          return articles.map(x => replaceAll(x, 'static/', ''))
-        })
-    } else {
-      this.articles = await this.$content('news')
-        .limit(1)
-        .fetch()
-        .then((articles) => {
-          return articles.map(x => replaceAll(x, 'static/', ''))
-        })
-    }
+    this.articles = await this.$content('news')
+      .limit(1)
+      .fetch()
+      .then((articles) => {
+        return articles.map(x => replaceAll(x, 'static/', ''))
+      })
   },
 
   created () {
