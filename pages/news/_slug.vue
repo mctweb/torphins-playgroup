@@ -6,7 +6,7 @@
         {{ page.created }}
       </p>
       <Markdown :body="page.description" />
-      <ButtonInternal to="/news" class="mt-12">
+      <ButtonInternal to="/news/" class="mt-12">
         View All Articles
       </ButtonInternal>
     </div>
