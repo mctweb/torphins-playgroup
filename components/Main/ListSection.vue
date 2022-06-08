@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
+  <section class="flex flex-wrap mx-auto max-w-7xl py-24 relative items-center ">
     <div class="bg-white flex flex-col flex-wrap w-full p-6 z-10 items-center relative md:p-8 lg:p-12">
       <div v-for="(listItem,i) in copiedList" :id="createId(listItem.title)" :key="i" class="flex flex-wrap w-full p-6 z-10 items-center relative ">
         <button class="bg-white rounded-lg flex outline-none text-left w-full p-3 duration-150 items-start group lg:p-6 hover:bg-gray-100 hover:text-red !focus:outline-none" :class="{ 'open' : listItem.isOpen}" @click="toggle(i)">

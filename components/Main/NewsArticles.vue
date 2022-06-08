@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-wrap mx-auto max-w-7xl  relative items-center py-32 " :class="[isNewsPage ? 'pb-32' : 'py-32']">
+  <section class="flex flex-wrap mx-auto max-w-7xl  relative items-center py-24 " :class="[isNewsPage ? 'pb-32' : 'py-32']">
     <div class="flex flex-wrap w-full px-12 pt-12 pb-6 z-10 relative items-center lg:flex-1 lg:pt-0">
       <div class="flex flex-col flex-1">
         <Markdown :body="title" type="largeheading" />

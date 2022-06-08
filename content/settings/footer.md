@@ -10,7 +10,9 @@ footertext: "### Torphins Playgroup\r
   tel: [01339 882978](tel:01339882978)\\\r
 
   email:
-  [enquiry@torphinsplaygroup.co.uk](mailto:enquiry@torphinsplaygroup.co.uk)\r"
+  [enquiry@torphinsplaygroup.co.uk](mailto:enquiry@torphinsplaygroup.co.uk)\r
+  
+  Registered Scottish Charity Number: SC008749"
 links:
   - text: Homepage
     to: Homepage

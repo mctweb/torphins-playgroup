@@ -69,12 +69,21 @@ export default {
   @apply text-xl;
 }
 .paragraph p{
-  @apply text-lg pb-3;
+  @apply text-lg pb-5;
 }
 .paragraph ul{
-  @apply list-disc py-6 pl-6;
+  @apply list-disc pb-3 pl-6;
 }
 .paragraph ul li{
   @apply  pb-1;
+}
+/* .paragraph p{
+  white-space: pre-wrap;
+} */
+.paragraph p br{
+  display: block;
+  width: 100%;
+  height: 20px;
+  content:"\a";
 }
 </style>

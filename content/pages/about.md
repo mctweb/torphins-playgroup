@@ -101,9 +101,7 @@ section:
   - type: general-section
     flip: true
     body: "Whole day (6 hours): £30\r
-
       Half day (3 hours): £15\r
-
       Lunch (for children attending on non-funded places): £2.50 – hot
       lunch is provided through the Aberdeenshire Schools catering service. "
     title: Session Prices
@@ -115,7 +113,7 @@ section:
     Flip: true
   - type: general-section
     flip: true
-    title: 2 Nurture **unded Places**
+    title: 2 Nurture **Funded Places**
     body: >-
       Your 2 year old child is eligible and entitled to a free nursery place if
       you receive one of the qualifying benefits and allowances:

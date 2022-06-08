@@ -1,5 +1,5 @@
 <template>
-  <section :id="'Policies'" class="flex flex-wrap mx-auto  py-32  relative items-center">
+  <section :id="'Policies'" class="flex flex-wrap mx-auto  py-24 relative items-center">
     <div class="flex mx-12 w-full justify-center">
       <input v-model="searchTerm" type="text" class="bg-white border-red rounded-lg font-black mx-auto border-4 w-full max-w-2xl py-4 px-6 z-20 relative lg:text-xl" placeholder="Search Resources">
     </div>

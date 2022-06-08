@@ -10,6 +10,6 @@ links:
     page: Support Us
   - text: News
     page: News
-  - text: FAQ's
+  - text: FAQ
     page: FAQs
 ---

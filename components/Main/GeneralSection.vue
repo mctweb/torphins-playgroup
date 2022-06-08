@@ -1,5 +1,5 @@
 <template>
-  <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
+  <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-20 relative items-center ">
     <div class="flex w-full relative lg:w-1/2" :class="[flip ? 'pl-12 lg:order-2' : 'pr-12']">
       <div v-if="image" class=" bg-gray-300 shadow-xl w-full min-h-72 z-3 relative overflow-hidden" :class="[ flip ? 'rounded-tl' : 'rounded-tr']">
         <nuxt-picture

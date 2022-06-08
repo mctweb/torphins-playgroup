@@ -1,5 +1,5 @@
 <template>
-  <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-32 relative items-center ">
+  <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-24 relative items-center ">
     <div class="bg-white flex flex-wrap w-full p-12 z-10 items-center relative">
       <div class="flex-1" :class="{'lg:order-2' : flip}">
         <Markdown :body="title" type="largeheading" />
