@@ -10,7 +10,7 @@
     >
     <div id="Contact" class="flex flex-wrap mx-auto max-w-9xl items-center">
       <section class="flex flex-col font-black order-2 text-lg w-full py-6 lg:order-1 lg:text-2xl lg:w-1/2">
-        <NuxtLink v-for="(link,i) in links" :key="i" :to="link.page + '/'" class="pb-2 duration-150  hover:text-red">
+        <NuxtLink v-for="(link,i) in links" :key="i" :to="link.page" class="pb-2 duration-150  hover:text-red">
           {{ link.text }}
         </NuxtLink>
       </section>
