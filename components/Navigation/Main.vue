@@ -1,6 +1,6 @@
 <template>
   <nav role="navigation" class="bg-white bg-blend-screen  flex bg-opacity-50 text-blue w-full px-12 top-0 z-50 fixed backdrop-filter backdrop-blur-lg justify-between items-center">
-    <header class="h-24 py-6">
+    <NuxtLink to="/" class="h-24 py-6">
       <img src="/Logo-Text.svg" class="h-full w-auto" alt="Torphins Playgroup Preschool ">
     </header>
     <section class="flex  h-24 z-50 items-center justify-center lg:hidden">
