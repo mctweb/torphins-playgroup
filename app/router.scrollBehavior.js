@@ -5,7 +5,7 @@ export default function (to, from, savedPosition) {
       setTimeout(() => {
         resolve({
           selector: to.hash,
-          offset: { x: 0, y: 150 },
+          offset: { x: 0, y: 15 },
           behavior: 'smooth'
         })
       }, 10)
