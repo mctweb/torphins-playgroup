@@ -73,13 +73,15 @@ section:
           Preschool?
       - body: Lunch is available – this is free for children with Eligible 2 places or a
           funded place under the Scottish Government 1140 Hours scheme. For more
-          information about lunches or to [read our Healthy Eating statement](/about#lunch-snacks)
+          information about [lunches or to read our Healthy Eating
+          statement](/about#Lunch%20&%20Snacks)
         title: Is lunch provided?
       - body: "We accept children from the age of 2 years old, but every child is
           different. We offer half day and full day sessions and spend as much
           time as they need settling them in, but you know best what your child
           is ready for. Why not arrange a visit to our setting and talk more
-          with our friendly, experienced team? [link to contact us]\r
+          with our friendly, experienced team? [Contact Us To Arrange A
+          Visit](#Contact)\r
 
           At Playgroup your child will have opportunities to explore
           and learn at their own pace, developing skills and independence in a
@@ -123,7 +125,7 @@ section:
           children’s enthusiasm, inventiveness and creativity to plan learning
           activities which combine to achieve this purpose.\r\n"
         title: What curriculum do you follow?
-      - body: We consider the Playgroup Garden as one of our most valuable resources and
+      - body: We consider the Playgroup garden as one of our most valuable resources and
           regard outdoor activities as a natural enhancement and extension of
           our indoor environment. We offer free flow play meaning your child can
           choose whether they would like to play inside or outside during their
@@ -132,7 +134,7 @@ section:
           physical equipment, such as bikes and swings. We believe that outdoor
           play has just as much to offer the children as our indoor environment.
         title: How much time do you spend outside?
-      - body: "## What is play?
+      - body: "##### What is play?
 
           Free play is what happens when children and young people
           follow their own ideas and interests in their own way, and for their
@@ -141,7 +143,7 @@ section:
           the choice of how and when they play.\ 
 
 
-          ## The importance of play\r
+          ##### The importance of play\r
 
           When we talk about play, people naturally think about young
           children, however all children and young people should have the
@@ -156,7 +158,7 @@ section:
           your child, whatever their age.\r
 
 
-          ## Learning Through Play \r
+          ##### Learning Through Play \r
 
           Through play, children can learn to answer their own
           questions, practice and learn new skills and learn to work
@@ -204,4 +206,19 @@ section:
           take several photographs to show the children’s progression as well as
           for quality assurance. \r\n"
         title: How will I know what my child has been doing in the sessions?
+      - title: How can I be sure that my child is safe while they are at Playgroup
+        body: "Playgroup has a library of policies and procedures that staff, the
+          committee, and parents are required to read on a regular basis. These
+          policies are formally reviewed and updates in line with Scottish
+          Government guidance.\ 
+
+
+          \r
+
+          Please visit our [resources](/resources) section to download
+          our [policies](/resources#Policies). If you have any questions or
+          would like to discuss any of our policies further, please do not
+          hesitate to get in touch on
+          (enquiry@torphinsplaygroup.co.uk)[mailto:enquiry@torphinsplaygroup.co\
+          .uk]"
 ---

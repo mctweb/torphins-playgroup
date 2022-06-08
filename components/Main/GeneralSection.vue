@@ -1,6 +1,6 @@
 <template>
-  <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl py-20 relative items-center ">
-    <div class="flex w-full relative lg:w-1/2" :class="[flip ? 'pl-12 lg:order-2' : 'pr-12']">
+  <section :id="createId(title)" class="flex flex-wrap mx-auto max-w-7xl pt-32 pb-12 relative items-center">
+    <div class="flex w-full relative self-stretch lg:w-1/2" :class="[flip ? 'pl-12 lg:order-2' : 'pr-12']">
       <div v-if="image" class=" bg-gray-300 shadow-xl w-full min-h-72 z-3 relative overflow-hidden" :class="[ flip ? 'rounded-tl' : 'rounded-tr']">
         <nuxt-picture
           :img-attrs="{class:'h-full object-cover w-full'}"

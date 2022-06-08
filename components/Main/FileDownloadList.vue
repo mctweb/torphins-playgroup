@@ -1,7 +1,12 @@
 <template>
   <section :id="'Policies'" class="flex flex-wrap mx-auto  py-24 relative items-center">
-    <div class="flex mx-12 w-full justify-center">
-      <input v-model="searchTerm" type="text" class="bg-white border-red rounded-lg font-black mx-auto border-4 w-full max-w-2xl py-4 px-6 z-20 relative lg:text-xl" placeholder="Search Resources">
+    <div v-if="title || body" class="bg-white rounded-lg mx-auto w-full py-12  px-12 z-10 relative lg:w-1/2 ">
+      <Markdown :body="title" type="heading" class="animate-in animation-delay-1" />
+      <Markdown :body="body" class="animate-in animation-delay-2" />
+
+      <div class="flex  w-full justify-center">
+        <input v-model="searchTerm" type="text" class="bg-white border-red rounded-lg font-black mx-auto border-4 w-full max-w-2xl py-4 px-6 z-20 relative lg:text-xl" placeholder="Search Resources">
+      </div>
     </div>
     <transition-group tag="ul" class=" flex flex-wrap w-full p-12 z-10 gap-3 justify-center items-center relative" name="fade-up">
       <li v-for="{file, url, title} in filteredDownloads" :key="file || url" class="flex w-full md:w-auto">
@@ -30,6 +35,14 @@ export default {
     downloads: {
       type: Array,
       default: () => []
+    },
+    title: {
+      type: String,
+      default: ''
+    },
+    body: {
+      type: String,
+      default: ''
     }
   },
   data () {

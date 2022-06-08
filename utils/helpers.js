@@ -28,7 +28,7 @@ export const icons = [
 
 export const createId = function (title) {
   if (!title) { return '' }
-  const id = replaceAll(title, '/*', '')
+  const id = replaceAll(title, /\*/g, '')
   return id
 }
 

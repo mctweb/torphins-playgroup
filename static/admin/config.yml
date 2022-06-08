@@ -153,6 +153,8 @@ collections:
             widget: object
             summary: '{{fields.title}}'
             fields:
+              - { label: Title, name: title, widget: markdown, required: false, buttons: ['bold'], minimal: true}
+              - { label: Body, name: body, widget: markdown, required: false,  buttons: ['bold', 'italic', 'link']}
               - widget: 'list'
                 name: 'downloads'
                 label: 'Downloads'

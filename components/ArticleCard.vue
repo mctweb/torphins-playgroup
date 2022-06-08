@@ -15,7 +15,7 @@
     </div>
     <div class="flex flex-col flex-1 py-12 px-12 z-10 relative md:pr-0 ">
       <Markdown :body="title" type="heading" />
-      <p class="mt-3 text-red mb-6 text-right w-full font-bold">
+      <p class="font-bold mt-3 text-red text-right mb-6 w-full">
         {{ humanizeDate(createdAt) }}
       </p>
       <Markdown :body="brief" />
@@ -25,7 +25,6 @@
       </ButtonInternal>
     </div>
     <div class="inset-0 z-0 absolute pointer-events-none">
-      <CircleDec color="blue" flip />
       <CircleDec stripes flip />
     </div>
   </div>

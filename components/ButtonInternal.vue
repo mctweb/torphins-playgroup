@@ -53,7 +53,7 @@ export default {
         .catch(() => {
           return [{ slug: '/' }]
         })
-      const path = page.slug === 'homepage' ? '/' : page.slug + '/'
+      const path = page.slug === 'homepage' ? '/' : '/' + page.slug + '/'
       const route = { path }
       if (this.uid) {
         route.hash = this.uid

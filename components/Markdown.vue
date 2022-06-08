@@ -22,7 +22,7 @@ export default {
     @apply  text-red;
 }
 .paragraph[type="heading"] p{
-    @apply font-black text-blue text-2xl lg:text-3xl xl:text-4xl;
+    @apply font-black text-blue pb-0 text-2xl lg:text-3xl xl:text-4xl;
 }
 .paragraph[type="heading"] p img{
     @apply mb-12;
@@ -54,19 +54,19 @@ export default {
 }
 
 .paragraph h1{
-  @apply text-5xl;
+  @apply font-black text-5xl;
 }
 .paragraph h2{
-  @apply text-4xl;
+  @apply font-black text-4xl;
 }
 .paragraph h3{
-  @apply text-3xl;
+  @apply font-black text-3xl;
 }
 .paragraph h4{
-  @apply text-2xl;
+  @apply font-black text-2xl;
 }
 .paragraph h5{
-  @apply text-xl;
+  @apply font-black text-xl;
 }
 .paragraph p{
   @apply text-lg pb-5;

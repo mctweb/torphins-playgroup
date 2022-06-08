@@ -15,7 +15,7 @@ section:
 
       The day begins with a welcome song that includes each child in turn, then the play really begins – we only stop for [snacks and lunch.](/about#Lunch%20&%20Snacks)
 
-      At Torphins Playgroup Pre-School , we aim to be flexible and responsive to our children’s needs. We recognise how important it is for children to be given time to play to follow their own line of enquiry or individual interest. Through play, children can learn to answer their own questions, practice and learn new skills and learn to work collaboratively with other children or adults. When playing, children try out ideas and come to a better understanding of thoughts and concepts.  Play also helps children cope with reality through using their imagination.
+      At Torphins Playgroup Pre-School, we aim to be flexible and responsive to our children’s needs. We recognise how important it is for children to be given time to play and follow their own line of enquiry or individual interest. Through play, children can learn to answer their own questions, practice and learn new skills and learn to work collaboratively with other children or adults. When playing, children try out ideas and come to a better understanding of thoughts and concepts.  Play also helps children cope with reality through using their imagination.
     buttons:
       - text: Scottish Government's National Strategy For Play
         url: "https://www.gov.scot/resource/0042/00425722.pdf "

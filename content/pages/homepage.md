@@ -5,24 +5,25 @@ header: null
 metaimage: /static/uploads/torphins-playgroup-outdoor-play.png
 section:
   - type: header
-    body: |-
+    body: >-
       ![Torphins Playgroup Pre-school](/static/uploads/torphins-playgroup.svg)
 
-      A fun, warm, inclusive preschool playgroup setting in **Aberdeenshire**
+
+      A fun, safe, warm, inclusive preschool playgroup setting in **Aberdeenshire**
     image: /static/uploads/header.png
   - type: general-section
     buttons:
       - text: About Us
         page: About
         id: Fees & Funding
-        uid: Fees & Funding
+        uid: ""
     image: /static/uploads/torphins-playgroup-outdoor-play.png
     title: A Bit **About Us**
     body: Welcome to Torphins Playgroup Preschool, where your children learn through
-      play in a creative way. Torphins Playgroup Preschool provides a unique
-      early years learning environment in Aberdeenshire for children from the
-      age of 2 until they attend primary school. We are a registered Scottish
-      Charity, run by a committee of parent and community volunteers.
+      play in a creative way. Torphins Playgroup Preschool provides a safe,
+      unique early years learning environment in Aberdeenshire for children from
+      the age of two until they attend primary school. We are a registered
+      Scottish Charity, run by a committee of parent and community volunteers.
   - type: general-section
     body: "With a huge outdoor space, emphasis on child-led learning through play,
       and supporting the children to develop at their own pace, Torphins
@@ -47,13 +48,11 @@ section:
       - text: Read FAQ's
         page: FAQs
   - type: general-section
-    body: "…In a home-from-home environment. \r
-
-      Fun, warm, and inclusive, our staff team provides creative and
-      engaging activities for the children to take part in, as well as every
-      opportunity to find and follow their own interests and develop their sense
-      of self. We accommodate difference, we work with families from across our
-      local communities, and we respect the rights of every child.\r
+    body: "Fun, warm, and inclusive, our staff team provides creative and engaging
+      activities for the children to take part in, as well as every opportunity
+      to find and follow their own interests and develop their sense of self. We
+      accommodate difference, we work with families from across our local
+      communities, and we respect the rights of every child.\r
 
       Whether your child is taking their first steps into education, or
       preparing to start school or home schooling, Torphins Playgroup Preschool
@@ -61,10 +60,11 @@ section:
       the Curriculum for Excellence, Pre-Birth to Three, and Getting It Right
       for Every Child (GIRFEC) to support children as they grow and develop in
       their learning. \r\n"
-    title: Prepare Your Children For **The Next Steps**
+    title: "Prepare Your Children For **The Next Steps** In A Home-From-Home
+      Environment. "
     image: /static/uploads/torphins-playgroup-0075.png
     buttons:
-      - text: Visit Us
+      - text: Arrange A Visit
         page: Homepage
         uid: Contact
         url: ""
@@ -75,7 +75,7 @@ section:
 
       Visit our fees and funding page for more information on the
       sessions, lunch arrangements, and the funding options available.\r\n"
-    title: Sessions, Pricing & Funding
+    title: Sessions
     flip: true
     image: /static/uploads/torphins-playgroup-0002.png
   - type: general-section

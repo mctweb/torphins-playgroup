@@ -98,7 +98,8 @@ section:
       - title: Arrival & Collection Routine
         file: /static/uploads/Arrival and Collection Routine  Oct 2021.pdf
       - title: Attendance Policy & Procedure for Absent Children
-        file: /static/uploads/Attendance Policy and Procedure for Absent Children June 2021.pdf
+        file: /static/uploads/Attendance Policy and Procedure for Absent Children June
+          2021.pdf
       - title: Child Protection Policy
         file: /static/uploads/Child Protection Policy March 2022.pdf
       - title: Committee Role Descriptions
@@ -135,7 +136,7 @@ section:
         file: /static/uploads/nursery-menu-april-2022_95505.pdf
       - title: Outings Policy
         file: /static/uploads/Outings Policy August 2021.pdf
-      - title:  Parental Responsibility Policy
+      - title: Parental Responsibility Policy
         file: /static/uploads/Parent Carer Participation Policy February 2022.pdf
       - title: Promoting Positive Behaviour Policy
         file: /static/uploads/Promoting Positive Behaviour Policy Sep 2021.pdf
@@ -151,4 +152,8 @@ section:
         file: /static/uploads/Staff Development Policy May 2020.pdf
       - title: Annual Accounts
         url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=8749
+    title: Downloads
+    body: All of Torphins Playgroup policies and procedures are available to
+      download here – either look through the list below or search for them by
+      name here.
 ---

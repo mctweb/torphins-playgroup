@@ -8,7 +8,7 @@ section:
   - type: general-section
     flip: true
     body: "Torphins Playgroup Preschool is a registered Scottish charity (SC008749)
-      run by the local community to provide high-quality, affordable childcare
+      run by the local community to provide high-quality affordable childcare
       and opportunities for children to learn, explore and flourish through
       play.\r
 
@@ -30,9 +30,8 @@ section:
     body: "You can nominate Torphins Playgroup Preschool as your chosen beneficiary
       on:\r
 
-      [Amazon Smile](https://www.smile.amazon.co.uk)\r
-
-      [Easy Fundraising](https://www.easyfundraising.org.uk)\r
+      [Amazon Smile](https://www.smile.amazon.co.uk) and [Easy
+      Fundraising](https://www.easyfundraising.org.uk)\r
 
       It may not seem like a lot, but every time you spend, these websites
       give us a small donation with no additional cost to you!\r
@@ -77,19 +76,25 @@ section:
         url: /static/uploads/Committee-Role-Descriptions-2022.pdf
   - type: general-section
     flip: true
-    body: "Torphins Playgroup Preschool is very grateful to its group of amazing
-      community volunteers who support with their skills and time. Gardening,
-      building equipment, and running events and fundraising initiatives on
-      behalf of the Playgroup, our volunteers do incredible things! If you would
-      like to support us as a volunteer, please contact us via [email](mailto:torphinsplaygroup.committee@gmail.com)"
+    body: Torphins Playgroup Preschool is very grateful to its group of amazing
+      community volunteers who support with their skills and time. The
+      volunteers do incredible things, everything from gardening, building
+      equipment, and running events and fundraising initiatives. If you would
+      like to support us as a volunteer, please contact us via
+      [email](mailto:torphinsplaygroup.committee@gmail.com)
     title: Give Us Your Time
     image: /static/uploads/torphins-playgroup-0185.png
   - type: general-section
     flip: false
-    body: "There are some things that we always need more of at Playgroup; if you or
-      your organisation would like to support Playgroup with a donation of
-      materials or equipment, here are some examples of the things we just can’t
-      get enough of!\r
+    body: "There are some things that we always need more of at Torphins Playgroup!
+      Here are some examples of the things we just can’t get enough of, if you
+      or your organisation would like to support Playgroup with a donation of
+      materials or equipment.
+
+
+      \r
+
+      \r
 
       Chalk, hats, bracelets/bangles, dried herbs, flour, pasta shapes,
       shaving foam, shells, coloured pens/pencils, pebbles, baskets, crates,
