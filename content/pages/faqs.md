@@ -219,6 +219,6 @@ section:
           our [policies](/resources#Policies). If you have any questions or
           would like to discuss any of our policies further, please do not
           hesitate to get in touch on
-          (enquiry@torphinsplaygroup.co.uk)[mailto:enquiry@torphinsplaygroup.co\
-          .uk]"
+          [enquiry@torphinsplaygroup.co.uk](mailto:enquiry@torphinsplaygroup.co\
+          .uk)"
 ---

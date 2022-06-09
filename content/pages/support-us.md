@@ -81,7 +81,7 @@ section:
       volunteers do incredible things, everything from gardening, building
       equipment, and running events and fundraising initiatives. If you would
       like to support us as a volunteer, please contact us via
-      [email](mailto:torphinsplaygroup.committee@gmail.com)
+      (email)[mailto:torphinsplaygroup.committee@gmail.com]
     title: Give Us Your Time
     image: /static/uploads/torphins-playgroup-0185.png
   - type: general-section

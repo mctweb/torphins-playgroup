@@ -31,10 +31,10 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     'nuxt-windicss',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@/modules/sitemapRouteGenerator'
   ],
 
   image: {
@@ -43,13 +43,10 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/markdownit',
     '@nuxtjs/sitemap'
-
   ],
   markdownit: {
     preset: 'default',
@@ -61,25 +58,10 @@ export default {
 
   sitemap: {
     hostname: 'https://torphinsplaygroup.co.uk',
-    gzip: true,
-    exclude: [
-      '/admin/**'
-    ],
-    routes: async () => {
-      const { $content } = require('@nuxt/content')
-      const pages = await $content('pages')
-        .only(['path'])
-        .fetch()
-      const articles = await $content('news').only(['path']).fetch()
-      return [...pages, ...articles].map((file) => {
-        const path = file.path.replace('/pages', '')
-        return ['/homepage', 'homepage', '/'].includes(path) ? '' : path + '/'
-      })
-    }
+    gzip: true
   },
   generate: {
     fallback: '404.html'
-
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

@@ -1,5 +1,7 @@
 @import './fonts.css';
-
+.scroll-margin-top{
+  margin-top: 25px;
+}
 h1,h2,h3{
   @apply font-black;
 }
