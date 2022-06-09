@@ -21,6 +21,9 @@ export const sitePWA = {
     background_color: '#fff',
     lang: 'en',
     useWebmanifestExtension: false
+  },
+  icon:{
+    fileName: 'icon.png'
   }
 }
 const getSiteMeta = (meta, additional) => {

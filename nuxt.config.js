@@ -73,7 +73,6 @@ export default {
       const articles = await $content('news').only(['path']).fetch()
       return [...pages, ...articles].map((file) => {
         const path = file.path.replace('/pages', '')
-        console.log(path)
         return ['/homepage', 'homepage', '/'].includes(path) ? '' : path + '/'
       })
     }

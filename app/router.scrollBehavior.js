@@ -1,14 +1,12 @@
 export default function (to, from, savedPosition) {
-  console.log('this is the hash', to.hash)
   return new Promise((resolve, reject) => {
     if (to.hash) {
       setTimeout(() => {
         resolve({
           selector: to.hash,
-          offset: { x: 0, y: 15 },
           behavior: 'smooth'
         })
-      }, 10)
+      }, 20)
     } else {
       setTimeout(() => {
         resolve({

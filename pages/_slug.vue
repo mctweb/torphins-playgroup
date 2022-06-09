@@ -49,8 +49,5 @@ export default {
       return allIcons
     }
   },
-  mounted () {
-    console.log(this.$route.path)
-  }
 }
 </script>
