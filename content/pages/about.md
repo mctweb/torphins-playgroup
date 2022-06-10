@@ -84,7 +84,7 @@ section:
       this.\r
 
       \r\n"
-    title: Lunch & Snacks
+    title: Lunch And Snacks
     image: /static/uploads/torphins-playgroup-0055.png
     buttons:
       - text: Our Eating Healthy Statement

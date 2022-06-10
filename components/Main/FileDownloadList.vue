@@ -1,5 +1,5 @@
 <template>
-  <section :id="'Policies'" class="flex flex-wrap mx-auto  py-24 relative items-center">
+  <section :id="'policies'" class="flex flex-wrap mx-auto  py-24 relative items-center">
     <div v-if="title || body" class="bg-white rounded-lg mx-auto w-full py-12  px-12 z-10 relative lg:w-1/2 ">
       <Markdown :body="title" type="heading" class="animate-in animation-delay-1" />
       <Markdown :body="body" class="animate-in animation-delay-2" />

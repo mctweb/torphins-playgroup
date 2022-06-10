@@ -1,4 +1,5 @@
 import siteMeta, { sitePWA } from './utils/meta'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',

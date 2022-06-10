@@ -29,7 +29,7 @@ export const icons = [
 export const createId = function (title) {
   if (!title) { return '' }
   const id = replaceAll(title, /\*/g, '').replace(/\s+/g, '-').toLowerCase()
-  return id
+  return encodeURIComponent(id)
 }
 
 export const humanizeDate = function (date) {

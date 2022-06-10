@@ -74,7 +74,7 @@ section:
       - body: Lunch is available – this is free for children with Eligible 2 places or a
           funded place under the Scottish Government 1140 Hours scheme. For more
           information about [lunches or to read our Healthy Eating
-          statement](/about#lunch-&-snacks)
+          statement](/about#lunch-and-snacks)
         title: Is lunch provided?
       - body: "We accept children from the age of 2 years old, but every child is
           different. We offer half day and full day sessions and spend as much

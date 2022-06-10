@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 import { replaceAll, icons } from '~/utils/helpers'
 import meta from '~/utils/meta'
 export default {
@@ -48,6 +49,6 @@ export default {
       }
       return allIcons
     }
-  },
+  }
 }
 </script>
