@@ -5,7 +5,6 @@ import { defineConfig } from 'windicss/helpers'
 export default defineConfig({
   darkMode: 'class', // or 'media'
   theme: {
-
     extend: {
       fontFamily: {
         body: ['Gotham', 'Helvetica', 'Arial', 'sans-serif']
@@ -30,10 +29,8 @@ export default defineConfig({
     }
   },
   plugins: [
-
     require('windicss/plugin/forms'),
     require('windicss/plugin/aspect-ratio'),
     require('windicss/plugin/line-clamp')
-
   ]
 })

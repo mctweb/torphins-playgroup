@@ -8,7 +8,7 @@
       width="1200"
       height="320"
     >
-    <div id="Contact" class="flex flex-wrap mx-auto max-w-9xl items-center">
+    <div id="contact" class="flex flex-wrap mx-auto max-w-9xl items-center">
       <section class="flex flex-col font-black order-2 text-lg w-full py-6 lg:order-1 lg:text-2xl lg:w-1/2">
         <NuxtLink v-for="(link,i) in links" :key="i" :to="link.page" class="pb-2 duration-150  hover:text-red">
           {{ link.text }}
@@ -21,7 +21,7 @@
     <p class="text-sm text-center w-full pt-12">
       Copyright © {{ new Date().getFullYear() }} Torphins Playgroup. All rights reserved.
     </p>
-    <div class="w-full justify-center flex mt-12 text-gray-700">
+    <div class="flex mt-12 w-full text-gray-700 justify-center">
       <MCT />
     </div>
   </footer>

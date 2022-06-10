@@ -66,7 +66,7 @@ section:
     buttons:
       - text: Arrange A Visit
         page: Homepage
-        uid: Contact
+        uid: contact
         url: ""
   - type: general-section
     body: "There are so many ways to join in with Torphins Playgroup Preschool:
@@ -89,7 +89,7 @@ section:
       lunch is provided through the Aberdeenshire Schools catering service.\r\n"
     buttons:
       - text: View Menu
-        uid: Menu
+        uid: menu
         page: Resources
     image: /static/uploads/torphins-playgroup-0004.png
   - type: news-articles

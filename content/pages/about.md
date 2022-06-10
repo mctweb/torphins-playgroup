@@ -90,15 +90,15 @@ section:
       - text: Our Eating Healthy Statement
         page: Resources
         id: Healthy Eating
-        uid: Healthy Eating at Torphins Playgroup Preschool
+        uid: healthy-eating-at-torphins-playgroup-preschool
       - text: View Menu
         page: Resources
-        uid: Menu
+        uid: menu
     Flip: true
   - type: header
     flip: true
     title: Fees & Funding
-    body: "#### Sessions run from 09.00 until 12.00 and from 12.00 until 15.00.
+    body: "##### Sessions run from 09.00 until 12.00 and from 12.00 until 15.00.
       Children can stay for one or both sessions. "
     image: /static/uploads/torphins-playgroup-0005.png
   - type: list-section

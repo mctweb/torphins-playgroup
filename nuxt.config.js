@@ -45,6 +45,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     '@nuxt/content',
+    // 'vue-scrollto/nuxt',
     '@nuxtjs/markdownit',
     '@nuxtjs/sitemap'
   ],

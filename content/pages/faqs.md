@@ -74,14 +74,14 @@ section:
       - body: Lunch is available – this is free for children with Eligible 2 places or a
           funded place under the Scottish Government 1140 Hours scheme. For more
           information about [lunches or to read our Healthy Eating
-          statement](/about#Lunch%20&%20Snacks)
+          statement](/about#lunch-&-snacks)
         title: Is lunch provided?
       - body: "We accept children from the age of 2 years old, but every child is
           different. We offer half day and full day sessions and spend as much
           time as they need settling them in, but you know best what your child
           is ready for. Why not arrange a visit to our setting and talk more
           with our friendly, experienced team? [Contact Us To Arrange A
-          Visit](#Contact)\r
+          Visit](#contact)\r
 
           At Playgroup your child will have opportunities to explore
           and learn at their own pace, developing skills and independence in a
@@ -216,7 +216,7 @@ section:
           \r
 
           Please visit our [resources](/resources) section to download
-          our [policies](/resources#Policies). If you have any questions or
+          our [policies](/resources#policies). If you have any questions or
           would like to discuss any of our policies further, please do not
           hesitate to get in touch on
           [enquiry@torphinsplaygroup.co.uk](mailto:enquiry@torphinsplaygroup.co\
