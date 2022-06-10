@@ -21,8 +21,8 @@ section:
   - type: meet-the-team
     team:
       - description: Sarah is the Manager at Torphins Playgroup Pre-school. Having
-          joined in 2018, she completed her SVQ Level 4 and has been leading the
-          team as Manager since November 2019. Sarah continues to further her
+          joined in 2019, she completed her SVQ Level 4 and has been leading the
+          team as Manager since November 2020. Sarah continues to further her
           knowledge and attend relevant training so she can provide the best
           support and guidance for the team, whilst ensuring the children enjoy
           a vast range of play experiences. Her favourite activity with the
